@@ -1,0 +1,33 @@
+@import "_variables";
+
+html, body {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+    font-size: 16px;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+.o-page-wrapper {
+    display: flex;
+    min-height: 100%;
+}
+
+.o-sidebar {
+    flex-basis: 300px;
+    padding: 32px 16px;
+    border-right: 1px solid $color-2;
+    background-color: $color-side-bg;
+}
+
+.o-main {
+    flex-grow: 1;
+    flex-basis: 600px;
+    padding: 32px 16px;
+    background-color: $color-main-bg;
+}

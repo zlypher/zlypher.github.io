@@ -1,0 +1,36 @@
+@import "_variables";
+
+.c-profile {
+    text-align: center;
+
+    &__icon {
+        border-radius: 50%;
+    }
+
+    &__name {
+        margin-bottom: 0;
+        font-weight: 600;
+    }
+
+    &__sub {
+        font-size: 0.8rem;
+        display: block;
+        margin-bottom: 16px;
+    }
+
+    &__contacts {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: inline-block;
+        text-align: left;
+    }
+
+    &__contact {
+        margin-bottom: 4px;
+    }
+
+    &__contact-icon {
+        vertical-align: middle;
+    }
+}

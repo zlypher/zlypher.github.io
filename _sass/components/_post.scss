@@ -1,0 +1,48 @@
+@import "_variables";
+
+.c-post {
+    &__title {
+        margin-top: 0;
+        margin-bottom: 8px;
+        font-size: 24px;
+    }
+
+    &__header {}
+    &__date {
+        color: $color-grey-muted;
+    }
+
+    &__categories {
+        margin: 0;
+        padding: 0;
+        margin-left: 8px;
+        padding-left: 8px;
+        border-left: 1px solid $color-black;
+        list-style: none;
+        display: inline-flex;
+        color: $color-grey-muted;
+    }
+
+    &__category {
+        
+    }
+
+    &__category + &__category {
+        margin-left: 8px;
+    }
+
+    &__content {
+        max-width: 800px;
+        font-size: 20px;
+        line-height: 30px;
+
+        figure {
+            margin-left: 0;
+            padding-left: 40px;
+        }
+
+        a {
+            text-decoration: none;
+        }
+    }
+}
