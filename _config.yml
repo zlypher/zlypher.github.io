@@ -27,7 +27,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 
-permalink: /:title
+permalink: /posts/:title
 
 # Build settings
 markdown: kramdown
@@ -37,6 +37,10 @@ plugins:
 
 sass:
   sass_dir: _sass
+
+collections:
+  people:
+    output: true
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
