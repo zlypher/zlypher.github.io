@@ -31,14 +31,23 @@
         transition: fill 0.25s ease-in-out;
         will-change: fill;
         margin: 0 4px;
-        fill: #7e8689;
+
+        &, &:visited {
+            fill: #7e8689;
+        }
 
         &:hover {
             fill: #acacac;
+        }
+
+        svg {
+            fill: inherit;
         }
     }
 
     &__contact-icon {
         vertical-align: middle;
+        width: 24px;
+        height: 24px;
     }
 }
