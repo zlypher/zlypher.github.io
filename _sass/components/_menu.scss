@@ -1,0 +1,28 @@
+@import "_variables";
+
+.c-menu {
+    padding: 0;
+    background: $color-2;
+    margin: 0 -16px 24px;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    border-color: #cacaca;
+
+    &__list {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    &__link {
+        transition: background-color 0.25s ease-in-out;
+        will-change: background-color;
+        text-decoration: none;
+        padding: 8px 16px;
+        display: block;
+
+        &:hover {
+            background-color: $color-side-bg;
+        }
+    }
+}

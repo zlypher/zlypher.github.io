@@ -13,6 +13,16 @@ html, body {
     box-sizing: inherit;
 }
 
+h2, h3, h4 {
+    font-weight: 600;
+}
+
+a, a:visited {
+    color: $color-link;
+    font-weight: 600;
+    text-decoration: none;
+}
+
 .o-page-wrapper {
     display: flex;
     min-height: 100%;
@@ -30,4 +40,16 @@ html, body {
     flex-basis: 600px;
     padding: 32px 16px;
     background-color: $color-main-bg;
+}
+
+@media only screen and (max-width: 900px) {
+    .o-page-wrapper {
+        flex-direction: column-reverse;
+    }
+
+    .o-sidebar {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
 }
