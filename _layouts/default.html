@@ -45,43 +45,35 @@
                         </li>
                     </ul>
                 </section>
-                <nav class="c-menu">
-                    <ul class="c-menu__list">
-                        <li class="c-menu__list-item">
-                            <a class="c-menu__link" href="#">
-                                Lorem Ipsum
-                            </a>
-                        </li>
-                        <li class="c-menu__list-item">
-                            <a class="c-menu__link" href="#">
-                                Lorem Ipsum
-                            </a>
-                        </li>
-                        <li class="c-menu__list-item">
-                            <a class="c-menu__link" href="#">
-                                Lorem Ipsum
-                            </a>
-                        </li>
-                        <li class="c-menu__list-item">
-                            <a class="c-menu__link" href="#">
-                                Lorem Ipsum
-                            </a>
-                        </li>
-                        <li class="c-menu__list-item">
-                            <a class="c-menu__link" href="#">
-                                Lorem Ipsum
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
-                <section class="c-recent-posts">
-                    <h2 class="c-recent-posts__title">Recent posts</h2>
-                    <ul class="c-recent-posts__list">
-                        {% for post in site.posts limit:4 %}
-                            <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-                        {% endfor %}
-                    </ul>
-                </section>
+                <div class="o-sidebar__block">
+                    <nav class="c-menu">
+                        <ul class="c-menu__list">
+                            <li class="c-menu__list-item">
+                                <a class="c-menu__link" href="/">
+                                    Posts
+                                </a>
+                            </li>
+                            <li class="c-menu__list-item">
+                                <a class="c-menu__link" href="/about">
+                                    About Me
+                                </a>
+                            </li>
+                            <li class="c-menu__list-item">
+                                <a class="c-menu__link" href="/projects">
+                                    Projects and Work
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <section class="c-recent-posts">
+                        <h2 class="c-recent-posts__title">Recent posts</h2>
+                        <ul class="c-recent-posts__list">
+                            {% for post in site.posts limit:4 %}
+                                <li class="c-recent-posts__list-item"><a href="{{ post.url }}">{{ post.title }}</a></li>
+                            {% endfor %}
+                        </ul>
+                    </section>
+                </div>
             </aside>
             <main class="o-main">
                 {{ content }}

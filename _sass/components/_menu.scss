@@ -26,3 +26,17 @@
         }
     }
 }
+
+@media only screen and (max-width: $bp-mobile) {
+    .c-menu {
+        margin: 0;
+        width: 50%;
+        border: 0;
+
+        &__link {
+            &:hover {
+                background-color: transparent;
+            }
+        }
+    }
+}

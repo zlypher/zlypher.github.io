@@ -18,9 +18,14 @@ h2, h3, h4 {
 }
 
 a, a:visited {
+    transition: color .25s ease-in-out;
     color: $color-link;
     font-weight: 600;
     text-decoration: none;
+
+    &:hover {
+        color: $color-link-hover;
+    }
 }
 
 .o-page-wrapper {
@@ -40,16 +45,27 @@ a, a:visited {
     flex-basis: 600px;
     padding: 32px 16px;
     background-color: $color-main-bg;
+    overflow-x: hidden;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: $bp-mobile) {
     .o-page-wrapper {
         flex-direction: column-reverse;
     }
 
     .o-sidebar {
         display: flex;
-        flex-direction: row;
-        justify-content: space-between;
+        flex-direction: column;
+        padding: 32px 0 0;
+
+        &__block {
+            display: flex;
+            flex-direction: row;
+            flex-shrink: 0;
+            padding: 16px 0 24px;
+            background: $color-2;
+            border-top: 1px solid;
+            border-color: #cacaca;
+        }
     }
 }

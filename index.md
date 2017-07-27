@@ -3,12 +3,11 @@ layout: default
 title: Test Title
 ---
 
-# Lorem Ipsum
-
 <section>
     <h2>Latest Article</h2>
     <h3>{{ site.posts.first.title }}</h3>
     <p>{{ site.posts.first.excerpt }}</p>
+    <a href="{{ site.posts.first.url }}">Read More</a>
 </section>
 
 <section class="c-more-posts">

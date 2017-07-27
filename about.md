@@ -4,15 +4,9 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+I am a Software Engineer working at [wikifolio.com](https://www.wikifolio.com){:target="_blank"}. We currently utilize Asp.Net MVC and other Frameworks/Libraries from the .Net ecosystem. I enjoy working on difficult problems and strive for Code Quality.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+## Previous Employers
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+* [NOVOMATIC Gaming Industries GmbH](http://www.novomatic.com){:target="_blank"} (C++, Java, PHP)
+* [Gentics](http://www.gentics.com/genticscms/index.de.html){:target="_blank"} (PHP, HTML, JS, CSS)
