@@ -1,0 +1,24 @@
+@import "_variables";
+
+.highlight {
+    overflow-x: auto;
+    border: 1px solid $color-2;
+    border-radius: 4px;
+    padding: 0;
+    font-size: 14px;
+    line-height: 20px;
+
+    pre {
+        margin: 0;
+    }
+
+    .gutter {
+        background-color: $color-side-bg;
+        padding: 8px;
+        user-select: none;
+    }
+
+    .code {
+        padding: 8px 4px;
+    }
+}

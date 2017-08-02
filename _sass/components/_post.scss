@@ -24,7 +24,13 @@
     }
 
     &__category {
-        
+        &:after {
+            content: ", ";
+        }
+
+        &:last-child:after {
+            content: none;
+        }
     }
 
     &__category + &__category {
@@ -47,13 +53,6 @@
 
         a {
             text-decoration: none;
-        }
-
-        .highlight {
-            overflow-x: auto;
-            border: 1px solid $color-2;
-            border-radius: 4px;
-            padding: 8px;
         }
     }
 
