@@ -8,9 +8,6 @@ I intend to writeup a small post for some engineers I found to be extraordinary 
 
 ## Planned
 
-* [Kent C. Dodds](/people/kent-doods) (Work in Progress)
-* Addy Osmani
-* Martin Fowler
-* ...
+* WIP
 
 _If you have any suggestions, please let me know!_
