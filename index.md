@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Test Title
+title: Software Engineering by Thomas Prochazka
 ---
 
 <section>
