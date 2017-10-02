@@ -53,12 +53,13 @@ a, a:visited {
 
 @media only screen and (max-width: $bp-mobile) {
     .o-page-wrapper {
-        flex-direction: column-reverse;
+        flex-direction: column;
     }
 
     .o-sidebar {
         display: flex;
         flex-direction: column;
+        flex-basis: auto;
         padding: 32px 0 0;
 
         &__block {
@@ -70,5 +71,9 @@ a, a:visited {
             border-top: 1px solid;
             border-color: #cacaca;
         }
+    }
+
+    .o-main {
+        flex-basis: auto;
     }
 }
