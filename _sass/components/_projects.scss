@@ -1,0 +1,34 @@
+.c-projectlist {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.c-projectcard {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    padding: 16px;
+    margin-bottom: 32px;
+
+    &:hover {
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    &__banner {
+        margin: -16px -16px 16px;
+    }
+
+    &__title {
+        margin: 0 0 16px;
+    }
+
+    &__desc {
+        margin: 0;
+    }
+}
