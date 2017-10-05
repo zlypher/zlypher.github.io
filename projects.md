@@ -4,16 +4,15 @@ title: Projects and Work
 permalink: /projects/
 ---
 
-## Projects during Employment
-
 <ul class="c-projectlist">
     {% for project in site.projects %}
         <li>
-            <article class="c-projectcard">
-                <img class="c-projectcard__banner" src="http://via.placeholder.com/350x150" />
+            <a class="c-projectcard" href="{{ project.webUrl }}" target="_blank">
+                <div class="c-projectcard__banner">
+                    <img class="c-projectcard__banner-image" src="{{ project.bannerUrl }}" alt="{{ project.bannerAlt }}" />
+                </div>
                 <h3 class="c-projectcard__title">{{ project.title }}</h3>
-                <p class="c-projectcard__desc">{{ project.description }}</p>
-            </article>
+            </a>
         </li>
     {% endfor %}
 </ul>

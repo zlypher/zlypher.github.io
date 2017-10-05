@@ -15,20 +15,49 @@
     border-radius: 4px;
     padding: 16px;
     margin-bottom: 32px;
-
-    &:hover {
-        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-    }
+    width: 350px;
+    cursor: pointer;
+    transition: box-shadow 0.15s ease-out;
 
     &__banner {
         margin: -16px -16px 16px;
+        border-radius: 4px 4px 0 0;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+        overflow: hidden;
+    }
+
+    &__banner-image {
+        width: 350px;
+        transition: transform 0.5s ease-in-out;
+        transform: scale3d(1, 1, 1);
     }
 
     &__title {
-        margin: 0 0 16px;
+        margin: 0;
+        // margin: 0 0 16px;
     }
 
     &__desc {
         margin: 0;
+    }
+
+    &:hover {
+        color: #3c3c3c;
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    &:hover &__banner-image {
+        transform: scale3d(2, 2, 1);
+        // animation: projectcard-banner-image 2s infinite;
+    }
+}
+
+@keyframes projectcard-banner-image {
+    0% {
+        transform: scale3d(1, 1, 1);
+    }
+
+    100% {
+        transform: scale3d(2, 2, 1);
     }
 }
