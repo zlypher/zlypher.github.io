@@ -23,8 +23,7 @@ keywords: "Software Engineer, Software Development, Blog"
 profile_icon_hash: 52a73317cd435a835d6cc927959f988c
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+ga_tracking_id: UA-108482569-1
 
 permalink: /posts/:title
 
