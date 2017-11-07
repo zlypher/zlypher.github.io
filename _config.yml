@@ -26,12 +26,15 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 ga_tracking_id: UA-108482569-1
 
 permalink: /posts/:title
+paginate: 3
+paginate_path: "/posts/:num/"
 
 # Build settings
 markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-paginate
 
 sass:
   sass_dir: _sass
