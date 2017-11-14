@@ -47,6 +47,6 @@ As you may have noticed, we used `rgba(0, 0, 0, 0)` for our transparent color. S
 
 So what can we do about this? Luckily, it is sufficient to change the transparent color from a transparent black `rgba(0, 0, 0, 0)` to a transparent white `rgba(255, 255, 255, 0)`. With this simple fix everything looks as expected in Safari as well.
 
-[Checkout the Codepen!](https://codepen.io/zlypher/pen/BwRyMb)
+[Checkout the Codepen!](https://codepen.io/zlypher/pen/BwRyMb){:target="_blank" rel="noopener noreferrer"}
 
 Tip: If you want to prevent the fade effect to interfere with your text selection, add `pointer-events: none` to `.fade`.
