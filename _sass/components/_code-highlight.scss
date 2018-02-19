@@ -12,12 +12,14 @@
         margin: 0;
     }
 
+    .rouge-gutter,
     .gutter {
         background-color: $color-side-bg;
         padding: 8px;
         user-select: none;
     }
 
+    .rouge-code,
     .code {
         padding: 8px 4px;
     }
