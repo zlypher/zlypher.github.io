@@ -1,13 +1,16 @@
 @import "_variables";
 
 .c-post {
+    &--front {
+        margin-bottom: 32px;
+    }
+
     &__title {
         margin-top: 0;
         margin-bottom: 8px;
         font-size: 28px;
     }
 
-    &__header {}
     &__date {
         color: $color-grey-muted;
     }
