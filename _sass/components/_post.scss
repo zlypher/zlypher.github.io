@@ -47,6 +47,7 @@
 
     &__content {
         max-width: 800px;
+        margin-bottom: 32px;
         font-size: 18px;
         line-height: 30px;
 
@@ -62,6 +63,31 @@
         a {
             text-decoration: none;
         }
+    }
+
+    &__share {
+        display: flex;
+        margin-bottom: 8px;
+    }
+
+    &__share-link {
+        display: block;
+        width: 32px;
+        height: 32px;
+        margin-right: 8px;
+        padding: 4px;
+        background: #cacaca;
+        border-radius: 4px;
+        fill: #3c3c3c;
+
+        &:last-of-type {
+            margin-right: 0;
+        }
+    }
+
+    &__share-icon {
+        width: 24px;
+        height: 24px;
     }
 
     &__info {
