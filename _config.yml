@@ -22,7 +22,7 @@ description: > # this means to ignore newlines until "baseurl:"
 keywords: "Software Engineer, Software Development, Blog"
 profile_icon_hash: 52a73317cd435a835d6cc927959f988c
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://zlypher.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 ga_tracking_id: UA-108482569-1
 
 permalink: /posts/:title
