@@ -16,9 +16,7 @@
 title: Software Engineering by Thomas Prochazka
 author: Thomas Prochazka
 email: thomas.prochazka@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  A little Software Engineering Blog by Thomas Prochazka, filled
-  with posts regarding engineering problems and solutions
+description: A little Software Engineering Blog by Thomas Prochazka, filled with posts regarding engineering problems and solutions
 keywords: "Software Engineer, Software Development, Blog"
 profile_icon_hash: 52a73317cd435a835d6cc927959f988c
 baseurl: "" # the subpath of your site, e.g. /blog
