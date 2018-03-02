@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Getting Started With SVG Sprites"
+description: Getting started with SVG sprites
 date:   2017-07-23 19:30:00 +0100
 categories: SVG Web Getting_Started
 ---

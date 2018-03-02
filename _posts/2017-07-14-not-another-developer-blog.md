@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Not another developer blog"
+description: Welcome to my awesome super unique developer blog
 date:   2017-07-14 10:14:22 +0200
 categories: Misc
 ---

@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Projects and Work
+description: Read up on various projects I worked on during my career
 permalink: /projects/
 ---
 

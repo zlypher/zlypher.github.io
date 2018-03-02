@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Secure target=\"blank\" with rel=\"noopener noreferrer\""
+description: Secure links with target=\"blank\"
 date:   2017-11-14 20:11:00 +0200
 ---
 

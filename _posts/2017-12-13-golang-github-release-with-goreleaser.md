@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Go - Create GitHub Releases with GoReleaser"
+description: Easily create GitHub Releases with GoReleaser
 date:   2017-12-13 22:45:00 +0200
 ---
 

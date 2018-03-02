@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About
+description: Find more about me in my curriculum vitae
 permalink: /about/
 ---
 

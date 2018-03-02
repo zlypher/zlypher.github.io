@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Software Engineering by Thomas Prochazka
+description: Checkout my posts about various software engineering topics
 ---
 
 {% for post in site.posts limit:3 %}

@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Windows Service stuck in status \"Starting\""
+description: How to kill a Windows Service which is stuck in status \"Starting\"
 date:   2018-02-19 22:30:00 +0200
 ---
 

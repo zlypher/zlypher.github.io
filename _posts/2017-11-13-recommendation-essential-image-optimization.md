@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Recommendation: Essential Image Optimization - images.guide"
+description: Checkout this awesome guide about image optimization
 date:   2017-11-13 23:00:00 +0200
 ---
 

@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Linear Gradient - differences in Chrome/Safari"
+description: "Browser differences: Linear Gradient"
 date:   2017-08-16 16:43:20 +0100
 categories: Web
 ---

@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Deferred VWO and the white flash"
+description: Deferred VWO will cause a white flash
 date:   2017-10-28 18:14:00 +0100
 ---
 

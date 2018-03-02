@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Filenames and Git on Windows"
+description: Filename problems with Git on Windows
 date:   2017-09-27 21:30:00 +0100
 categories: Git
 ---

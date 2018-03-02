@@ -13,9 +13,11 @@
 
         {% if page.title %}
         <meta property="og:title" content="{{ page.title }}">
-        <meta property="og:description" content="{{ page.title }}">
+        <meta property="og:description" content="{{ page.description }}">
         <meta property="og:image" content="https://www.gravatar.com/avatar/{{ site.profile_icon_hash }}">
         <meta property="og:url" content="{{ page.url | absolute_url }}">
+        <meta name="twitter:card" content="summary">
+        <meta property="og:site_name" content="Software Engineering by Thomas Prochazka">
         {% endif %}
 
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
