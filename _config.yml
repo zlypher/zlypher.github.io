@@ -41,6 +41,7 @@ collections:
   people:
     output: true
   projects:
+  experience:
 
 kramdown:
   syntax_highlighter_opts:
