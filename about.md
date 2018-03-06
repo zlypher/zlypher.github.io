@@ -10,7 +10,7 @@ I am a Software Engineer working at [wikifolio.com](https://www.wikifolio.com){:
 ## Work Experience
 
 <ul class="c-experience-list">
-    {% assign workItems = site.experience | where:"education","0" | sort "order" | reverse %}
+    {% assign workItems = site.experience | where:"education","0" | sort:"order" | reverse %}
     {% for exp in workItems %}
         <li class="c-experience">
             <time class="c-experience__date">{{ exp.years }}</time>
@@ -26,7 +26,7 @@ I am a Software Engineer working at [wikifolio.com](https://www.wikifolio.com){:
 ## Education
 
 <ul class="c-experience-list">
-    {% assign educationItems = site.experience | where:"education","1" | sort "order" | reverse %}
+    {% assign educationItems = site.experience | where:"education","1" | sort:"order" | reverse %}
     {% for exp in educationItems %}
         <li class="c-experience">
             <time class="c-experience__date">{{ exp.years }}</time>
