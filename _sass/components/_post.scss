@@ -11,6 +11,10 @@
         font-weight: normal;
     }
 
+    &--front &__title {
+        font-size: 22px;
+    }
+
     &__header {
         margin-bottom: 24px;
     }

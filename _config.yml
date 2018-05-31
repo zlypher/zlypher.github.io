@@ -24,7 +24,7 @@ url: "https://zlypher.github.io" # the base hostname & protocol for your site, e
 ga_tracking_id: UA-108482569-1
 
 permalink: /posts/:title
-paginate: 3
+paginate: 5
 paginate_path: "/posts/:num/"
 
 # Build settings

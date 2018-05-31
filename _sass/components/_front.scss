@@ -1,0 +1,20 @@
+@import "_variables";
+
+.c-front {
+    &__subtitle {
+        font-size: 28px;
+        font-weight: normal;
+        margin: 0 0 $space-2 0;
+        border-bottom: 1px solid currentColor;
+        padding-bottom: 4px;
+    }
+
+    &__more {
+        display: block;
+        text-align: center;
+        padding: $space-1 0;
+        border: 1px solid $color-2;
+        border-radius: 4px;
+        background-color: $color-side-bg;
+    }
+}
