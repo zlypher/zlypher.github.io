@@ -2,7 +2,7 @@
 
 .c-post {
     &--front {
-        margin-bottom: 32px;
+        margin-bottom: 16px;
     }
 
     &__title {
@@ -12,7 +12,8 @@
     }
 
     &--front &__title {
-        font-size: 22px;
+        font-size: 18px;
+        line-height: 24px;
     }
 
     &__header {
@@ -22,6 +23,11 @@
     &__date {
         font-size: 16px;
         color: $color-grey-muted;
+    }
+
+    &--front &__date {
+        font-size: 14px;
+        line-height: 20px;
     }
 
     &__categories {
@@ -52,8 +58,8 @@
     &__content {
         max-width: 800px;
         margin-bottom: 32px;
-        font-size: 18px;
-        line-height: 30px;
+        font-size: 16px;
+        line-height: 26px;
 
         figure {
             margin-left: 0;
