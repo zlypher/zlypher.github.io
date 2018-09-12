@@ -127,3 +127,9 @@
         color: $color-grey-muted;
     }
 }
+
+@media only screen and (max-width: $bp-mobile) {
+    .c-post-overview {
+        flex-direction: column;
+    }
+}

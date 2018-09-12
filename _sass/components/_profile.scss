@@ -64,6 +64,13 @@
 
 @media only screen and (max-width: $bp-mobile) {
     .c-profile {
-        width: 100%;
+        flex-direction: column;
+        margin-bottom: 32px;
+        margin-right: 0;
+
+        &__wrapper {
+            align-items: center;
+            margin-right: 0;
+        }
     }
 }
