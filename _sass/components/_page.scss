@@ -1,6 +1,9 @@
 @import "_variables";
 
 .c-page {
+    max-width: 800px;
+    margin: 0 auto;
+
     &__title {
         margin-top: 0;
         margin-bottom: 16px;

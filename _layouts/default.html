@@ -44,56 +44,20 @@
         </script>
         {% include symbols.html %}
         <div class="o-page-wrapper">
-            <aside class="o-sidebar">
-                <section class="c-profile">
-                    <img class="c-profile__icon" src="https://www.gravatar.com/avatar/{{ site.profile_icon_hash }}" />
-                    <h2 class="c-profile__name">
-                        <a href="/">
-                            {{ site.author }}
+            <nav class="c-menu">
+                <ul class="c-menu__list">
+                    <li class="c-menu__list-item">
+                        <a class="c-menu__link" href="/">
+                            Posts
                         </a>
-                    </h2>
-                    <span class="c-profile__sub">Dancer, Horseman and Software Engineer</span>
-                    <ul class="c-profile__contacts">
-                        <li class="c-profile__contact">
-                            <a href="https://www.linkedin.com/in/prochazkathomas/" title="linkedin.com" target="_blank">
-                                <svg class="c-profile__contact-icon">
-                                    <use xlink:href="#icon-linked" />
-                                </svg>
-                            </a>
-                        </li>
-                        <li class="c-profile__contact">
-                            <a href="https://github.com/zlypher" title="github.com" target="_blank">
-                                <svg class="c-profile__contact-icon">
-                                    <use xlink:href="#icon-github" />
-                                </svg>
-                            </a>
-                        </li>
-                        <li class="c-profile__contact">
-                            <a href="https://twitter.com/SyjinX" title="twitter.com" target="_blank">
-                                <svg class="c-profile__contact-icon">
-                                    <use xlink:href="#icon-twitter" />
-                                </svg>
-                            </a>
-                        </li>
-                    </ul>
-                </section>
-                <div class="o-sidebar__block">
-                    <nav class="c-menu">
-                        <ul class="c-menu__list">
-                            <li class="c-menu__list-item">
-                                <a class="c-menu__link" href="/">
-                                    Posts
-                                </a>
-                            </li>
-                            <li class="c-menu__list-item">
-                                <a class="c-menu__link" href="/about">
-                                    About Me
-                                </a>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
-            </aside>
+                    </li>
+                    <li class="c-menu__list-item">
+                        <a class="c-menu__link" href="/about">
+                            About Me
+                        </a>
+                    </li>
+                </ul>
+            </nav>
             <main class="o-main">
                 {{ content }}
             </main>

@@ -41,50 +41,13 @@ p {
 
 .o-page-wrapper {
     display: flex;
-    min-height: 100%;
-}
-
-.o-sidebar {
-    flex-basis: 300px;
-    padding: 32px 16px;
-    border-right: 1px solid $color-2;
-    background-color: $color-side-bg;
+    flex-direction: column;
 }
 
 .o-main {
-    flex-grow: 1;
-    flex-basis: 600px;
     padding: 32px 16px;
     background-color: $color-main-bg;
     overflow-x: hidden;
-    max-width: 800px;
     font-size: 18px;
     line-height: 30px;
-}
-
-@media only screen and (max-width: $bp-mobile) {
-    .o-page-wrapper {
-        flex-direction: column;
-    }
-
-    .o-sidebar {
-        display: flex;
-        flex-direction: column;
-        flex-basis: auto;
-        padding: 32px 0 0;
-
-        &__block {
-            display: flex;
-            flex-direction: row;
-            flex-shrink: 0;
-            padding: 16px 0 24px;
-            background: $color-2;
-            border-top: 1px solid;
-            border-color: #cacaca;
-        }
-    }
-
-    .o-main {
-        flex-basis: auto;
-    }
 }
