@@ -36,9 +36,6 @@ sass:
   sass_dir: _sass
 
 collections:
-  people:
-    output: true
-  projects:
   experience:
 
 kramdown:
