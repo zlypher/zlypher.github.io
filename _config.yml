@@ -31,6 +31,7 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-paginate
+  - jekyll-extlinks
 
 sass:
   sass_dir: _sass
@@ -42,6 +43,9 @@ kramdown:
   syntax_highlighter_opts:
     block:
       line_numbers: true
+
+extlinks:
+  attributes: {rel: nofollow noreferrer, target: _blank}
 
 exclude: [vendor]
 # Exclude from processing.
