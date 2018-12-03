@@ -1,7 +1,7 @@
 ---
 layout: post
 title: COM Exception with IISNode and node-export-server
-description: TBD
+description: Find out where these SetProcessDpiAwareness exception in node-export-server are coming from
 date:   2018-11-29 12:46:00 +0100
 ---
 
