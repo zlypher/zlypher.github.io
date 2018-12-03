@@ -42,7 +42,7 @@ Another possibility would be to fork the node-export-server repository on GitHub
 
 ## Result
 
-We decided to live with these errors for now, as there doesn't seem to be any problem with the chart generation itself. Workarounds would require further development and testing resources which are currently not available.
+In the end, we decided to live with these errors for now, as there doesn't seem to be any problem with the chart generation itself. Workarounds would require further development and testing resources which are currently not available.
 
 **Resources**
 * [node-export-server Repository](https://github.com/highcharts/node-export-server)
