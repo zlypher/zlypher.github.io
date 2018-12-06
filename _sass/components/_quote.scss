@@ -2,6 +2,9 @@
 
 .c-quote {
     font-style: italic;
-    margin-left: $space-7;
-    margin-right: $space-7;
+    margin: $space-4 $space-7;
+
+    &__source {
+        display: block;
+    }
 }
