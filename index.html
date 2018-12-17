@@ -4,10 +4,11 @@ title: Software Engineering by Thomas Prochazka
 description: Checkout my posts about various software engineering topics
 ---
 
+<h1 class="o-page-title">Software Engineering - zlypher.github.io</h1>
 <section class="c-post-overview">
     <aside class="o-sidebar">
         <section class="c-profile">
-            <img class="c-profile__icon" src="https://www.gravatar.com/avatar/{{ site.profile_icon_hash }}" />
+            <img class="c-profile__icon" src="https://www.gravatar.com/avatar/{{ site.profile_icon_hash }}" alt="Thomas Prochazka profile image" />
             <div class="c-profile__wrapper">
                 <h2 class="c-profile__name"><a href="/">{{ site.author }}</a></h2>
                 <span class="c-profile__sub">Dancer, Horseman and Software Engineer</span>
@@ -41,7 +42,7 @@ description: Checkout my posts about various software engineering topics
         {% for post in site.posts %}
         <article class="c-post c-post--front">
             <time class="c-post__date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%-d %B, %Y" }}</time>
-            <h1 class="c-post__title"><a href="{{ post.url }}">{{ post.title }}</a></h1>
+            <h2 class="c-post__title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
         </article>
         {% endfor %}
     </section>
