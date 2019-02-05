@@ -22,3 +22,9 @@ In this lecture, Robert C. Martin unwinds the history of Programming as a profes
 First anouncement and introduction of React Hooks by Sophie Alpert, Dan Abramov, and Ryan Florence. They outline the problem the React team was trying to solve and provide an easy to follow showcase for for React Hooks compared to a traditional approach with class components.
 
 [React Today and Tomorrow and 90% Cleaner React With Hooks on YouTube](https://www.youtube.com/watch?v=dpw9EHDh2bM&index=3&t=4s&list=PLl0AtsmuedN4lbpkR8lg1hyE-ZCrh9ebd)
+
+### Seven Ineffective Coding Habits of Many Programmers
+
+Interesting talk by Kevlin Henney about several coding habits, that one normally doesn't think about. He gives his opinion on what properties constitute good, readable code. Topics he covers include Unsustainable Spacing, Lego Naming and Underabstraction. Unfortunately, the camera editing is a bit lackluster and not all slides are shown properly. Still a great talk, which makes you think a little bit more about details of every day programming.
+
+[Seven Ineffective Coding Habits of Many Programmers on YouTube](https://www.youtube.com/watch?v=ZsHMHukIlJY&index=7&list=PLl0AtsmuedN4lbpkR8lg1hyE-ZCrh9ebd&t=1410s)
