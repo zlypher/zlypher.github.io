@@ -14,7 +14,7 @@ let elements = document.querySelectorAll(".container")
 // let elements = document.getElementsByClassName("container")
 ```
 
-That looks promising! As a next step, we want to get XXX from each node. So that we end up with a list of XXX. Since we are well versed developers and want to use a functional appraoch, we use the `map` function. As a reminder, the map function will execute the callback for each element in the array and create a new array from the return values. Combined, with arrow functions, we get some concise, expressive code:
+That looks promising! As a next step, we want to get XXX from each node. So that we end up with a list of XXX. Since we are well versed developers and want to use a functional approach, we use the `map` function. As a reminder, the map function will execute the callback for each element in the array and create a new array from the return values. Combined, with arrow functions, we get some concise, expressive code:
 
 ```js
 let array = [ 1, 2, 3 ]
