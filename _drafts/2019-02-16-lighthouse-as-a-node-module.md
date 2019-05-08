@@ -5,6 +5,12 @@ description: Learn how you can use and leverage lighthouse as a node module
 date: 2019-02-16 22:27:00 +0200
 ---
 
+Lighthouse is a popular tool to...
+
+https://developers.google.com/web/tools/lighthouse/
+https://web.dev/measure
+https://developers.google.com/speed/pagespeed/insights/
+
 https://github.com/GoogleChrome/lighthouse/blob/master/docs/readme.md#using-programmatically
 
 ```js
@@ -21,4 +27,7 @@ async function launchChromeAndRunLighthouse(url, opts, config = null) {
 ```
 
 **Resources**
+* [Lighthouse](https://developers.google.com/web/tools/lighthouse/)
 * [GoogleChrome/lighthouse GitHub Repository](https://github.com/GoogleChrome/lighthouse/blob/master/docs/readme.md#using-programmatically)
+* [web.dev Measure](https://web.dev/measure)
+* [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/)
