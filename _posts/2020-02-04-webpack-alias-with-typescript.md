@@ -2,7 +2,7 @@
 layout: post
 title: Use webpack aliases with TypeScript
 description: Webpack aliases are not that straight forward with TypeScript. Find out here what you need to do.
-date:   2018-07-29 00:25:00 +0200
+date:   2020-02-04 20:11:00 +0100
 ---
 
 If you work on a decently sized TypeScript application, chances are that your source directories are nested quite a bit and you will have various components which need to import something from completely different folders. So if you find yourself writing a lot of imports with `../../../`, then this tip might be helpful for you!
