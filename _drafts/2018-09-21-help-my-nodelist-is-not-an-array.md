@@ -45,6 +45,10 @@ let elements = document.querySelectorAll("a");
 let links = [...elements].map(elem => elem.getAttribute("href"));
 ```
 
+## Conclusion
+
+Both solutions work fine for that example. The main take away is, that you should be aware that not everything that looks like an array at first glance, really can be used in all situations like an array. However, additions with ES6 like the spread operator, make dealing with arrays (and objects) easier and more comfortable.
+
 **Resources**
 * [querySelectorAll MDN](https://developer.mozilla.org/de/docs/Web/API/Document/querySelectorAll)
 * [NodeList](https://developer.mozilla.org/de/docs/Web/API/NodeList)
