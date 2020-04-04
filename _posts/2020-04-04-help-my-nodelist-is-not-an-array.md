@@ -2,7 +2,7 @@
 layout: post
 title: Help! My NodeList is not an Array
 description: NodeList are like arrays, but the are not arrays. So what to do?
-date:   2018-09-20 22:08:00 +0200
+date:   2020-04-04 22:48:00 +0200
 ---
 
 Let's say that you have to find a list of all links on a page. This is a fairly basic task and can be solved in different ways. For our purposes, using Vanilla JS, we could either use `document.getElementsByTagName` or `document.querySelectorAll`. While the former returns a `HTMLCollection`, the latter returns a `NodeList`. They are similar enough for our example, so we'll go with `querySelectorAll`. Our code will look something like this:
