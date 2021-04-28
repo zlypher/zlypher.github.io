@@ -1,0 +1,104 @@
+import { GetStaticProps } from "next";
+import Head from "next/head";
+import Image from "next/image";
+import Link from "next/link";
+import HomeLayout from "../layouts/home-layout";
+import { getAllPosts } from "../lib/api";
+import { formatDate } from "../lib/format-date";
+
+interface IHomeProps {
+  posts: any[];
+}
+
+export default function Home({ posts }: IHomeProps) {
+  return (
+    <HomeLayout>
+      <h1 className="o-page-title">Software Engineering - zlypher.github.io</h1>
+      <section className="c-post-overview">
+        <aside className="o-sidebar">
+          <section className="c-profile">
+            <img
+              className="c-profile__icon"
+              src="https://www.gravatar.com/avatar/52a73317cd435a835d6cc927959f988c"
+              alt="Thomas Prochazka Avatar"
+            />
+            <div className="c-profile__wrapper">
+              <h2 className="c-profile__name">
+                <a href="/">Author</a>
+              </h2>
+              <span className="c-profile__sub">
+                Dancer, Horseman and Software Engineer
+              </span>
+              <ul className="c-profile__contacts">
+                <li className="c-profile__contact">
+                  <a
+                    href="https://www.linkedin.com/in/prochazkathomas/"
+                    title="linkedin.com"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                  >
+                    <span className="u-sr-only">LinkedIn Profile</span>
+                    <svg className="c-profile__contact-icon">
+                      <use xlinkHref="#icon-linked" />
+                    </svg>
+                  </a>
+                </li>
+                <li className="c-profile__contact">
+                  <a
+                    href="https://github.com/zlypher"
+                    title="github.com"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                  >
+                    <span className="u-sr-only">GitHub Profile</span>
+                    <svg className="c-profile__contact-icon">
+                      <use xlinkHref="#icon-github" />
+                    </svg>
+                  </a>
+                </li>
+                <li className="c-profile__contact">
+                  <a
+                    href="https://twitter.com/SyjinX"
+                    title="twitter.com"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                  >
+                    <span className="u-sr-only">Twitter Profile</span>
+                    <svg className="c-profile__contact-icon">
+                      <use xlinkHref="#icon-twitter" />
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </aside>
+        <section className="c-post-list">
+          {posts.map((p) => {
+            const date = new Date(p.date);
+            return (
+              <article key={p.slug} className="c-post c-post--front">
+                <time className="c-post__date" dateTime={date.toISOString()}>
+                  {formatDate(date)}
+                </time>
+                <h2 className="c-post__title">
+                  <Link href={`/posts/${encodeURIComponent(p.slug)}`}>
+                    {p.title}
+                  </Link>
+                </h2>
+              </article>
+            );
+          })}
+        </section>
+      </section>
+    </HomeLayout>
+  );
+}
+
+export const getStaticProps: GetStaticProps = async () => {
+  const posts = getAllPosts();
+
+  return {
+    props: { posts },
+  };
+};
