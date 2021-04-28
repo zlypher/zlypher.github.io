@@ -1,0 +1,797 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Software Engineering Talks and Lectures</title>
+
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Thomas Prochazka" />
+        <meta name="description" content="A little Software Engineering Blog by Thomas Prochazka, filled with posts regarding engineering problems and solutions" />
+        <meta name="keywords" content="Software Engineer, Software Development, Blog" />
+
+        
+        <meta property="og:title" content="Software Engineering Talks and Lectures">
+        <meta property="og:description" content="Introducing the curated playlist of interesting talks and lectures in Software Engineering">
+        <meta property="og:image" content="https://www.gravatar.com/avatar/52a73317cd435a835d6cc927959f988c">
+        <meta property="og:url" content="http://localhost:4000/posts/software-engineering-talks-and-lectures">
+        <meta name="twitter:card" content="summary">
+        <meta property="og:site_name" content="Software Engineering by Thomas Prochazka">
+        
+
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="/favicon.ico" type="image/x-icon">
+        <link rel="alternate" type="application/atom+xml" title="Software Engineering by Thomas Prochazka" href="/feed.xml"/>
+
+        <style>
+            
+            /**
+ * Color Definitions
+ */
+/**
+ * Breakpoints
+ */
+/**
+ * Spacing
+ */
+html, body {
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-size: 16px;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #212529; }
+
+* {
+  box-sizing: inherit; }
+
+h2, h3, h4 {
+  font-weight: 600; }
+
+h1 a, h2 a, h3 a, h4 a {
+  font-weight: inherit; }
+
+a, a:visited {
+  transition: color .25s ease-in-out;
+  color: #3c3c3c;
+  font-weight: 600;
+  text-decoration: none; }
+  a:hover, a:visited:hover {
+    color: #858789; }
+
+p {
+  margin-top: 0; }
+
+.u-sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0; }
+
+.o-page-wrapper {
+  display: flex;
+  flex-direction: column; }
+
+.o-main {
+  padding: 32px 16px;
+  background-color: #ffffff;
+  overflow-x: hidden;
+  font-size: 18px;
+  line-height: 30px; }
+
+.o-page-title {
+  margin-top: 0;
+  margin-bottom: 48px;
+  font-size: 36px;
+  font-weight: normal;
+  line-height: 44px;
+  text-align: center; }
+
+.highlight {
+  background: #ffffff;
+  margin-bottom: 1em; }
+
+.highlight .c {
+  color: #999988;
+  font-style: italic; }
+
+/* Comment */
+.highlight .err {
+  color: #a61717;
+  background-color: #e3d2d2; }
+
+/* Error */
+.highlight .k {
+  font-weight: bold; }
+
+/* Keyword */
+.highlight .o {
+  font-weight: bold; }
+
+/* Operator */
+.highlight .cm {
+  color: #999988;
+  font-style: italic; }
+
+/* Comment.Multiline */
+.highlight .cp {
+  color: #999999;
+  font-weight: bold; }
+
+/* Comment.Preproc */
+.highlight .c1 {
+  color: #999988;
+  font-style: italic; }
+
+/* Comment.Single */
+.highlight .cs {
+  color: #999999;
+  font-weight: bold;
+  font-style: italic; }
+
+/* Comment.Special */
+.highlight .gd {
+  color: #000000;
+  background-color: #ffdddd; }
+
+/* Generic.Deleted */
+.highlight .gd .x {
+  color: #000000;
+  background-color: #ffaaaa; }
+
+/* Generic.Deleted.Specific */
+.highlight .ge {
+  font-style: italic; }
+
+/* Generic.Emph */
+.highlight .gr {
+  color: #aa0000; }
+
+/* Generic.Error */
+.highlight .gh {
+  color: #999999; }
+
+/* Generic.Heading */
+.highlight .gi {
+  color: #000000;
+  background-color: #ddffdd; }
+
+/* Generic.Inserted */
+.highlight .gi .x {
+  color: #000000;
+  background-color: #aaffaa; }
+
+/* Generic.Inserted.Specific */
+.highlight .go {
+  color: #888888; }
+
+/* Generic.Output */
+.highlight .gp {
+  color: #555555; }
+
+/* Generic.Prompt */
+.highlight .gs {
+  font-weight: bold; }
+
+/* Generic.Strong */
+.highlight .gu {
+  color: #aaaaaa; }
+
+/* Generic.Subheading */
+.highlight .gt {
+  color: #aa0000; }
+
+/* Generic.Traceback */
+.highlight .kc {
+  font-weight: bold; }
+
+/* Keyword.Constant */
+.highlight .kd {
+  font-weight: bold; }
+
+/* Keyword.Declaration */
+.highlight .kp {
+  font-weight: bold; }
+
+/* Keyword.Pseudo */
+.highlight .kr {
+  font-weight: bold; }
+
+/* Keyword.Reserved */
+.highlight .kt {
+  color: #445588;
+  font-weight: bold; }
+
+/* Keyword.Type */
+.highlight .m {
+  color: #009999; }
+
+/* Literal.Number */
+.highlight .s {
+  color: #d14; }
+
+/* Literal.String */
+.highlight .na {
+  color: #008080; }
+
+/* Name.Attribute */
+.highlight .nb {
+  color: #0086B3; }
+
+/* Name.Builtin */
+.highlight .nc {
+  color: #445588;
+  font-weight: bold; }
+
+/* Name.Class */
+.highlight .no {
+  color: #008080; }
+
+/* Name.Constant */
+.highlight .ni {
+  color: #800080; }
+
+/* Name.Entity */
+.highlight .ne {
+  color: #990000;
+  font-weight: bold; }
+
+/* Name.Exception */
+.highlight .nf {
+  color: #990000;
+  font-weight: bold; }
+
+/* Name.Function */
+.highlight .nn {
+  color: #555555; }
+
+/* Name.Namespace */
+.highlight .nt {
+  color: #000080; }
+
+/* Name.Tag */
+.highlight .nv {
+  color: #008080; }
+
+/* Name.Variable */
+.highlight .ow {
+  font-weight: bold; }
+
+/* Operator.Word */
+.highlight .w {
+  color: #bbbbbb; }
+
+/* Text.Whitespace */
+.highlight .mf {
+  color: #009999; }
+
+/* Literal.Number.Float */
+.highlight .mh {
+  color: #009999; }
+
+/* Literal.Number.Hex */
+.highlight .mi {
+  color: #009999; }
+
+/* Literal.Number.Integer */
+.highlight .mo {
+  color: #009999; }
+
+/* Literal.Number.Oct */
+.highlight .sb {
+  color: #d14; }
+
+/* Literal.String.Backtick */
+.highlight .sc {
+  color: #d14; }
+
+/* Literal.String.Char */
+.highlight .sd {
+  color: #d14; }
+
+/* Literal.String.Doc */
+.highlight .s2 {
+  color: #d14; }
+
+/* Literal.String.Double */
+.highlight .se {
+  color: #d14; }
+
+/* Literal.String.Escape */
+.highlight .sh {
+  color: #d14; }
+
+/* Literal.String.Heredoc */
+.highlight .si {
+  color: #d14; }
+
+/* Literal.String.Interpol */
+.highlight .sx {
+  color: #d14; }
+
+/* Literal.String.Other */
+.highlight .sr {
+  color: #009926; }
+
+/* Literal.String.Regex */
+.highlight .s1 {
+  color: #d14; }
+
+/* Literal.String.Single */
+.highlight .ss {
+  color: #990073; }
+
+/* Literal.String.Symbol */
+.highlight .bp {
+  color: #999999; }
+
+/* Name.Builtin.Pseudo */
+.highlight .vc {
+  color: #008080; }
+
+/* Name.Variable.Class */
+.highlight .vg {
+  color: #008080; }
+
+/* Name.Variable.Global */
+.highlight .vi {
+  color: #008080; }
+
+/* Name.Variable.Instance */
+.highlight .il {
+  color: #009999; }
+
+/* Literal.Number.Integer.Long */
+/**
+ * Color Definitions
+ */
+/**
+ * Breakpoints
+ */
+/**
+ * Spacing
+ */
+.highlight {
+  overflow-x: auto;
+  border: 1px solid #d9dde2;
+  border-radius: 4px;
+  padding: 0;
+  font-size: 14px;
+  line-height: 20px; }
+  .highlight pre {
+    margin: 0; }
+  .highlight .rouge-gutter,
+  .highlight .gutter {
+    background-color: #f2f5f9;
+    padding: 8px;
+    user-select: none; }
+  .highlight .rouge-code,
+  .highlight .code {
+    padding: 8px 4px; }
+
+code.highlighter-rouge {
+  padding: 1px 4px;
+  border: 1px solid #d9dde2;
+  border-radius: 4px;
+  background: #f2f5f9;
+  color: #d14; }
+
+/**
+ * Color Definitions
+ */
+/**
+ * Breakpoints
+ */
+/**
+ * Spacing
+ */
+.c-menu {
+  padding: 0; }
+  .c-menu__list {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+    list-style: none; }
+  .c-menu__list-item {
+    flex: 0 0 auto; }
+  .c-menu__link {
+    display: block;
+    padding: 8px 16px; }
+
+/**
+ * Color Definitions
+ */
+/**
+ * Breakpoints
+ */
+/**
+ * Spacing
+ */
+.c-profile {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  margin-right: 24px; }
+  .c-profile__icon {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px; }
+  .c-profile__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 16px; }
+  .c-profile__name {
+    margin: 0;
+    font-weight: 600; }
+  .c-profile__sub {
+    font-size: 0.8rem;
+    display: block; }
+  .c-profile__contacts {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    list-style: none; }
+  .c-profile__contact {
+    transition: fill 0.25s ease-in-out;
+    will-change: fill;
+    margin: 0 4px; }
+    .c-profile__contact, .c-profile__contact:visited {
+      fill: #7e8689; }
+    .c-profile__contact:hover {
+      fill: #acacac; }
+    .c-profile__contact svg {
+      fill: inherit; }
+  .c-profile__contact-icon {
+    vertical-align: middle;
+    width: 24px;
+    height: 24px; }
+
+@media only screen and (max-width: 900px) {
+  .c-profile {
+    flex-direction: column;
+    margin-bottom: 32px;
+    margin-right: 0; }
+    .c-profile__wrapper {
+      align-items: center;
+      margin-right: 0; } }
+/**
+ * Color Definitions
+ */
+/**
+ * Breakpoints
+ */
+/**
+ * Spacing
+ */
+.c-post-overview {
+  display: flex;
+  justify-content: center; }
+
+.c-post-list {
+  width: 100%;
+  max-width: 400px; }
+
+.c-post {
+  max-width: 800px;
+  margin: 0 auto; }
+  .c-post--front {
+    margin-bottom: 16px; }
+  .c-post__title {
+    margin: 0;
+    font-size: 28px;
+    font-weight: normal; }
+  .c-post--front .c-post__title {
+    font-size: 18px;
+    line-height: 24px; }
+  .c-post__header {
+    margin-bottom: 24px; }
+  .c-post__date {
+    font-size: 16px;
+    color: #48494b; }
+  .c-post--front .c-post__date {
+    font-size: 14px;
+    line-height: 20px; }
+  .c-post__categories {
+    margin: 0;
+    padding: 0;
+    margin-left: 8px;
+    padding-left: 8px;
+    border-left: 1px solid #000000;
+    list-style: none;
+    display: inline-flex;
+    color: #48494b; }
+  .c-post__category:after {
+    content: ", "; }
+  .c-post__category:last-child:after {
+    content: none; }
+  .c-post__category + .c-post__category {
+    margin-left: 8px; }
+  .c-post__content {
+    max-width: 800px;
+    margin-bottom: 32px;
+    font-size: 18px;
+    line-height: 1.7; }
+    .c-post__content figure {
+      margin-left: 0;
+      padding-left: 40px; }
+    .c-post__content h2 {
+      font-size: 20px;
+      margin-bottom: 8px; }
+    .c-post__content h3 {
+      font-size: 16px; }
+    .c-post__content a {
+      text-decoration: none; }
+    .c-post__content img {
+      max-width: 100%; }
+  .c-post__share {
+    display: flex;
+    margin-bottom: 8px; }
+  .c-post__share-link {
+    display: block;
+    width: 32px;
+    height: 32px;
+    margin-right: 8px;
+    padding: 4px;
+    background: #cacaca;
+    border-radius: 4px;
+    fill: #3c3c3c; }
+    .c-post__share-link:last-of-type {
+      margin-right: 0; }
+  .c-post__share-icon {
+    width: 24px;
+    height: 24px; }
+  .c-post__info {
+    border-top: 1px solid #d9dde2;
+    padding-top: 8px;
+    font-style: italic;
+    font-size: 16px;
+    line-height: 22px;
+    color: #48494b; }
+
+@media only screen and (max-width: 900px) {
+  .c-post-overview {
+    flex-direction: column; } }
+/**
+ * Color Definitions
+ */
+/**
+ * Breakpoints
+ */
+/**
+ * Spacing
+ */
+.c-page {
+  max-width: 800px;
+  margin: 0 auto; }
+  .c-page__title {
+    margin-top: 0;
+    margin-bottom: 16px;
+    font-size: 28px;
+    font-weight: normal; }
+  .c-page__content figure {
+    margin-left: 0;
+    padding-left: 40px; }
+  .c-page__content h2 {
+    font-size: 24px;
+    font-weight: normal; }
+  .c-page__content a {
+    text-decoration: none; }
+
+/**
+ * Color Definitions
+ */
+/**
+ * Breakpoints
+ */
+/**
+ * Spacing
+ */
+.c-experience {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 16px; }
+  .c-experience__header {
+    font-size: 20px;
+    line-height: 24px; }
+  .c-experience__content {
+    line-height: 24px; }
+  .c-experience__title {
+    line-height: 20px; }
+  .c-experience__date {
+    flex: 0 0 75px;
+    margin-right: 32px;
+    padding-top: 5px;
+    line-height: 20px; }
+
+@media only screen and (min-width: 900px) {
+  .c-experience::before {
+    display: block;
+    position: absolute;
+    top: 11px;
+    left: -23px;
+    width: 6px;
+    height: 6px;
+    background-color: #f2f5f9;
+    border: 2px solid #cacaca;
+    border-radius: 50%;
+    content: ""; }
+
+  .c-experience-list {
+    border-left: 4px solid #d9dde2;
+    margin-left: 24px;
+    padding-left: 16px; } }
+/**
+ * Color Definitions
+ */
+/**
+ * Breakpoints
+ */
+/**
+ * Spacing
+ */
+.c-update {
+  border: 1px solid #d9dde2;
+  border-radius: 4px;
+  padding: 8px;
+  margin-bottom: 24px; }
+  .c-update > p:last-child {
+    margin-bottom: 0; }
+
+/**
+ * Color Definitions
+ */
+/**
+ * Breakpoints
+ */
+/**
+ * Spacing
+ */
+.c-mind {
+  color: #856404;
+  background: #fff3cd;
+  border: 1px solid #856404;
+  border-radius: 4px;
+  padding: 8px;
+  margin-bottom: 24px; }
+  .c-mind > p:last-child {
+    margin-bottom: 0; }
+
+/**
+ * Color Definitions
+ */
+/**
+ * Breakpoints
+ */
+/**
+ * Spacing
+ */
+.c-front__subtitle {
+  font-size: 28px;
+  font-weight: normal;
+  margin: 0 0 16px 0;
+  border-bottom: 1px solid currentColor;
+  padding-bottom: 4px; }
+.c-front__more {
+  display: block;
+  text-align: center;
+  padding: 8px 0;
+  border: 1px solid #d9dde2;
+  border-radius: 4px;
+  background-color: #f2f5f9; }
+
+/**
+ * Color Definitions
+ */
+/**
+ * Breakpoints
+ */
+/**
+ * Spacing
+ */
+.c-quote {
+  font-style: italic;
+  margin: 32px 56px; }
+  .c-quote__source {
+    display: block; }
+
+.c-caption {
+  font-size: 14px;
+  color: #48494b; }
+
+        </style>
+
+        <link media="print" rel="stylesheet" type="text/css" href="/styles/print.css" />
+    </head>
+    <body>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-108482569-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'UA-108482569-1');
+        </script>
+        <!-- Icons taken from https://github.com/simple-icons/simple-icons -->
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+    <symbol id="icon-linked" viewBox="0 0 16 16" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414">
+        <path d="M13.632 13.635h-2.37V9.922c0-.886-.018-2.025-1.234-2.025-1.235 0-1.424.964-1.424 1.96v3.778h-2.37V6H8.51v1.04h.03c.318-.6 1.092-1.233 2.247-1.233 2.4 0 2.845 1.58 2.845 3.637v4.188zM3.558 4.955c-.762 0-1.376-.617-1.376-1.377 0-.758.614-1.375 1.376-1.375.76 0 1.376.617 1.376 1.375 0 .76-.617 1.377-1.376 1.377zm1.188 8.68H2.37V6h2.376v7.635zM14.816 0H1.18C.528 0 0 .516 0 1.153v13.694C0 15.484.528 16 1.18 16h13.635c.652 0 1.185-.516 1.185-1.153V1.153C16 .516 15.467 0 14.815 0z" />
+    </symbol>
+    <symbol id="icon-github" viewBox="0 0 24 24" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414">
+        <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/>
+    </symbol>
+    <symbol id="icon-twitter" viewBox="0 0 16 16" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414">
+        <path d="M16 3.038c-.59.26-1.22.437-1.885.517.677-.407 1.198-1.05 1.443-1.816-.634.37-1.337.64-2.085.79-.598-.64-1.45-1.04-2.396-1.04-1.812 0-3.282 1.47-3.282 3.28 0 .26.03.51.085.75-2.728-.13-5.147-1.44-6.766-3.42C.83 2.58.67 3.14.67 3.75c0 1.14.58 2.143 1.46 2.732-.538-.017-1.045-.165-1.487-.41v.04c0 1.59 1.13 2.918 2.633 3.22-.276.074-.566.114-.865.114-.21 0-.41-.02-.61-.058.42 1.304 1.63 2.253 3.07 2.28-1.12.88-2.54 1.404-4.07 1.404-.26 0-.52-.015-.78-.045 1.46.93 3.18 1.474 5.04 1.474 6.04 0 9.34-5 9.34-9.33 0-.14 0-.28-.01-.42.64-.46 1.2-1.04 1.64-1.7z"/>
+    </symbol>
+    <symbol id="icon-facebook" viewBox="0 0 16 16" fill-rule="evenodd">
+        <path d="M10.28 14V9.35h1.56l.23-1.8h-1.79V6.38c0-.53.15-.89.9-.89h.96V3.88c-.17-.02-.74-.07-1.4-.07-1.38 0-2.33.85-2.33 2.4v1.33H6.85v1.81H8.4V14H2.66a.66.66 0 0 1-.66-.66V2.66c0-.36.3-.66.66-.66h10.68c.36 0 .66.3.66.66v10.68c0 .36-.3.66-.66.66h-3.06z"></path>
+    </symbol>
+</svg>
+
+        <div class="o-page-wrapper">
+            <nav class="c-menu">
+                <ul class="c-menu__list">
+                    <li class="c-menu__list-item">
+                        <a class="c-menu__link" href="/">
+                            Posts
+                        </a>
+                    </li>
+                    <li class="c-menu__list-item">
+                        <a class="c-menu__link" href="/talks">
+                            Talks
+                        </a>
+                    </li>
+                    <li class="c-menu__list-item">
+                        <a class="c-menu__link" href="/about">
+                            About Me
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <main class="o-main">
+                <article class="c-post" itemscope="" itemtype="http://schema.org/BlogPosting">
+    <header class="c-post__header">
+        <time class="c-post__date" datetime="2019-01-11T20:40:00+01:00" itemprop="datePublished">11 January, 2019</time>
+        <h1 class="c-post__title" itemprop="name headline">Software Engineering Talks and Lectures</h1>
+    </header>
+    <div class="c-post__content" itemprop="articleBody">
+        <p>I recently realized, that - at least for me - conference talks and lectures are an invaluable help in discovering interesting topics and expanding my knowledge in various areas. Now the main problem lies in the discovery of the most interesting ones. There are literally hundreds of videos available via YouTube and other platforms.</p>
+
+<p>So I made a resolution for 2019 to watch at least 1 hour worth of talks each week. The most interesting ones, which inspired me or taught me something new, will be collected in a curated playlist on YouTube as well as on my blog. So stay tuned for some awesome software engineering talks! You can find most of the list, with a short description of each video, on the new <a href="/talks">“Talks” page</a> or you can checkout the <a href="https://www.youtube.com/playlist?list=PLl0AtsmuedN4lbpkR8lg1hyE-ZCrh9ebd" rel="nofollow noreferrer" target="_blank">YouTube playlist “Software Engineering Talks and Lectures”</a>.</p>
+
+<p>Do you have some favourite talks? Send me a suggestion and I’ll be happy to check it out!</p>
+
+    </div>
+    <footer>
+        <div class="c-post__share">
+            <a class="c-post__share-link" target="_blank" href="https://twitter.com/intent/tweet?text=Software+Engineering+Talks+and+Lectures%20http://localhost:4000/posts/software-engineering-talks-and-lectures" rel="nofollow noreferrer">
+                <span class="u-sr-only">Share via Twitter</span>
+                <svg class="c-post__share-icon">
+                    <use xlink:href="#icon-twitter"></use>
+                </svg>
+            </a>
+            <a class="c-post__share-link" target="_blank" href="http://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/posts/software-engineering-talks-and-lectures&amp;title=Software+Engineering+Talks+and+Lectures" rel="nofollow noreferrer">
+                <span class="u-sr-only">Share via Facebook</span>
+                <svg class="c-post__share-icon">
+                    <use xlink:href="#icon-facebook"></use>
+                </svg>
+            </a>
+        </div>
+        <p class="c-post__info">
+            Please let me know if you have any suggestions or corrections to improve this post. Feedback is always appreciated.
+        </p>
+    </footer>
+</article>
+
+            </main>
+        </div>
+    </body>
+</html>
