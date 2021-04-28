@@ -2,7 +2,7 @@ import Head from "next/head";
 import Link from "next/link";
 import { IPost } from "../lib/api";
 import { formatDate } from "../lib/format-date";
-import HomeLayout from "./home-layout";
+import BaseLayout from "./base-layout";
 
 interface IPostLayoutProps {
   post: IPost;
@@ -10,7 +10,7 @@ interface IPostLayoutProps {
 }
 
 const PostLayout = ({ children, post }: IPostLayoutProps) => (
-  <HomeLayout>
+  <BaseLayout>
     <article
       className="c-post"
       itemScope
@@ -60,7 +60,7 @@ const PostLayout = ({ children, post }: IPostLayoutProps) => (
         </p>
       </footer>
     </article>
-  </HomeLayout>
+  </BaseLayout>
 );
 
 export default PostLayout;

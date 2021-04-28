@@ -1,9 +1,4 @@
-import Head from "next/head";
-import Link from "next/link";
-import { IPost } from "../lib/api";
-import { formatDate } from "../lib/format-date";
-import { getStaticProps } from "../pages/posts/[slug]";
-import HomeLayout from "./home-layout";
+import BaseLayout from "./base-layout";
 
 interface IPageLayoutProps {
   page: unknown;
@@ -11,7 +6,7 @@ interface IPageLayoutProps {
 }
 
 const PageLayout = ({ children, page }: IPageLayoutProps) => (
-  <HomeLayout>
+  <BaseLayout>
     <section className="c-page">
       {/* {% if page.title %}
     <header className="c-page__header">
@@ -20,7 +15,7 @@ const PageLayout = ({ children, page }: IPageLayoutProps) => (
     {% endif %} */}
       <div className="c-page__content">{children}</div>
     </section>
-  </HomeLayout>
+  </BaseLayout>
 );
 
 export default PageLayout;

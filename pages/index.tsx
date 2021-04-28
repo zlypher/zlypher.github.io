@@ -1,18 +1,16 @@
 import { GetStaticProps } from "next";
-import Head from "next/head";
-import Image from "next/image";
 import Link from "next/link";
-import HomeLayout from "../layouts/home-layout";
-import { getAllPosts } from "../lib/api";
+import BaseLayout from "../layouts/base-layout";
+import { getAllPosts, IPost } from "../lib/api";
 import { formatDate } from "../lib/format-date";
 
 interface IHomeProps {
-  posts: any[];
+  posts: IPost[];
 }
 
 export default function Home({ posts }: IHomeProps) {
   return (
-    <HomeLayout>
+    <BaseLayout>
       <h1 className="o-page-title">Software Engineering - zlypher.github.io</h1>
       <section className="c-post-overview">
         <aside className="o-sidebar">
@@ -24,7 +22,7 @@ export default function Home({ posts }: IHomeProps) {
             />
             <div className="c-profile__wrapper">
               <h2 className="c-profile__name">
-                <a href="/">Author</a>
+                <a href="/">Thomas Prochazka</a>
               </h2>
               <span className="c-profile__sub">
                 Dancer, Horseman and Software Engineer
@@ -91,7 +89,7 @@ export default function Home({ posts }: IHomeProps) {
           })}
         </section>
       </section>
-    </HomeLayout>
+    </BaseLayout>
   );
 }
 
