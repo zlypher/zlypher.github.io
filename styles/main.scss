@@ -12,3 +12,13 @@
 @import "components/_front";
 @import "components/_quote";
 @import "components/_caption";
+
+@media print {
+  .o-sidebar {
+    display: none;
+  }
+
+  .c-post__share {
+    display: none;
+  }
+}
