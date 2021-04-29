@@ -1,0 +1,96 @@
+import PageLayout from "../layouts/page-layout";
+import { ExperienceItem } from "../components/experience-item";
+
+export const experience = [
+  {
+    headline: "Software Engineer",
+    years: "since '15",
+    title: "wikifolio.com",
+    link: "https://www.wikifolio.com",
+    notes: ".Net, C#, HTML, JS, CSS",
+    education: false,
+    order: 3,
+  },
+  {
+    headline: "Software Engineer",
+    years: "'13–'15",
+    title: "NOVOMATIC Gaming Industries GmbH",
+    link: "http://www.novomatic.com",
+    notes: "C++, Java, PHP",
+    education: false,
+    order: 2,
+  },
+  {
+    headline: "Front End Developer",
+    years: "'11–'13",
+    title: "Gentics",
+    link: "http://www.gentics.com/genticscms/index.de.html",
+    notes: "PHP, HTML, JS, CSS",
+    education: false,
+    order: 1,
+  },
+  {
+    headline: "Master of Science",
+    years: "'11–'14",
+    title: "FH Technikum Wien",
+    link: "https://www.technikum-wien.at/",
+    notes: "Game Engineering and Simulation",
+    education: true,
+    order: 2,
+  },
+  {
+    headline: "Bachelor of Science",
+    years: "'09–'11",
+    title: "FH Technikum Wien",
+    link: "https://www.technikum-wien.at/",
+    notes: "Computer Science",
+    education: true,
+    order: 1,
+  },
+];
+
+export const meta = {
+  title: "Thomas Prochazka",
+  description: "Find more about me in my curriculum vitae",
+};
+
+I am a Software Engineer working at [wikifolio.com](https://www.wikifolio.com). We currently utilize Asp.Net MVC and other Frameworks/Libraries from the .Net ecosystem. I enjoy working on difficult problems and strive for Code Quality.
+
+## Work Experience
+
+<ul className="c-experience-list">
+  {experience
+    .filter((exp) => exp.education == false)
+    .map((exp) => {
+      return <ExperienceItem key={exp.years + exp.title} experience={exp} />;
+    })}
+</ul>
+
+## Education
+
+<ul className="c-experience-list">
+  {experience
+    .filter((exp) => exp.education == true)
+    .map((exp) => {
+      return (
+        <li className="c-experience">
+          <time className="c-experience__date">{exp.years}</time>
+          <div>
+            <header className="c-experience__header">{exp.headline}</header>
+            <a
+              className="c-experience__title"
+              href="{exp.link}"
+              target="_blank"
+            >
+              {exp.title}
+            </a>
+            <div className="c-experience__content">{exp.notes}</div>
+          </div>
+        </li>
+      );
+    })}
+</ul>
+
+export default ({ children }) => (
+  <PageLayout page={meta}>{children}</PageLayout>
+);
