@@ -17,7 +17,9 @@ export interface IPost {
 }
 
 const getAllPostFiles = () => {
-  return fs.readdirSync(postsDirectory);
+  return fs
+    .readdirSync(postsDirectory)
+    .filter((file) => file.endsWith(".md") || file.endsWith(".mdx"));
 };
 
 const getPostFromFilename = (filename: string): IPost => {
