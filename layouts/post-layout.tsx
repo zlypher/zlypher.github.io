@@ -1,5 +1,3 @@
-import Head from "next/head";
-import Link from "next/link";
 import { IPost } from "../lib/api";
 import { formatDate } from "../lib/format-date";
 import BaseLayout from "./base-layout";
@@ -36,7 +34,9 @@ const PostLayout = ({ children, post }: IPostLayoutProps) => (
           <a
             className="c-post__share-link"
             target="blank"
-            href="https://twitter.com/intent/tweet?text={{ post.title | cgi_escape }}%20{{ post.url | absolute_url }}"
+            href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(
+              post.title
+            )}%20${post.url}`}
           >
             <span className="u-sr-only">Share via Twitter</span>
             <svg className="c-post__share-icon">
@@ -46,7 +46,9 @@ const PostLayout = ({ children, post }: IPostLayoutProps) => (
           <a
             className="c-post__share-link"
             target="blank"
-            href="http://www.facebook.com/sharer/sharer.php?u={{ post.url | absolute_url }}&title={{ post.title | cgi_escape }}"
+            href={`http://www.facebook.com/sharer/sharer.php?u=${
+              post.url
+            }&title=${encodeURIComponent(post.title)}`}
           >
             <span className="u-sr-only">Share via Facebook</span>
             <svg className="c-post__share-icon">

@@ -14,6 +14,7 @@ export interface IPost {
   title: string;
   description: string;
   date: Date;
+  url: string;
 }
 
 const getAllPostFiles = () => {
@@ -26,11 +27,13 @@ const getPostFromFilename = (filename: string): IPost => {
   const fullPath = join(postsDirectory, filename);
   const fileContents = fs.readFileSync(fullPath, "utf8");
   const { data, content } = matter(fileContents);
+  const slug = filename.replace(".md", "");
 
   return {
     ...data,
-    slug: filename.replace(".md", ""),
+    slug: slug,
     content,
+    url: "https://zlypher.github.io/posts/" + slug,
   } as IPost;
 };
 
