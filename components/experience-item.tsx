@@ -4,11 +4,11 @@ interface IExperienceItemProps {
     headline: string;
     title: string;
     notes: string;
+    link: string;
   };
 }
 
 export const ExperienceItem = ({ experience }: IExperienceItemProps) => {
-  /* <!-- Icons taken from https://github.com/simple-icons/simple-icons --> */
   return (
     <li className="c-experience">
       <time className="c-experience__date">{experience.years}</time>
@@ -16,7 +16,7 @@ export const ExperienceItem = ({ experience }: IExperienceItemProps) => {
         <header className="c-experience__header">{experience.headline}</header>
         <a
           className="c-experience__title"
-          href="{experience.link}"
+          href={experience.link}
           target="_blank"
         >
           {experience.title}
