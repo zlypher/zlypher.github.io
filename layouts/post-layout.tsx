@@ -12,6 +12,18 @@ const PostLayout = ({ children, post }: IPostLayoutProps) => (
   <BaseLayout>
     <Head>
       <title>{post.title}</title>
+      <meta property="og:title" content={post.title} />
+      <meta property="og:description" content={post.description} />
+      <meta
+        property="og:image"
+        content="https://www.gravatar.com/avatar/52a73317cd435a835d6cc927959f988c"
+      />
+      <meta property="og:url" content={post.url} />
+      <meta name="twitter:card" content="summary" />
+      <meta
+        property="og:site_name"
+        content="Software Engineering by Thomas Prochazka"
+      />
     </Head>
     <article
       className="c-post"
