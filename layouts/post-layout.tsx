@@ -1,3 +1,4 @@
+import Head from "next/head";
 import { IPost } from "../lib/api";
 import { formatDate } from "../lib/format-date";
 import BaseLayout from "./base-layout";
@@ -9,6 +10,9 @@ interface IPostLayoutProps {
 
 const PostLayout = ({ children, post }: IPostLayoutProps) => (
   <BaseLayout>
+    <Head>
+      <title>{post.title}</title>
+    </Head>
     <article
       className="c-post"
       itemScope
