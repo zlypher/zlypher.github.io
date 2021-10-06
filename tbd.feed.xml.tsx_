@@ -1,5 +1,5 @@
-import { getAllPosts } from "../lib/api";
-import { generateRss } from "../lib/generate-rss";
+import { getAllPosts } from "./lib/api";
+import { generateRss } from "./lib/generate-rss";
 
 export default function Feed() {
   return null;

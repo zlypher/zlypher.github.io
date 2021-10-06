@@ -1,0 +1,311 @@
+
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.7">Jekyll</generator><link href="https://zlypher.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://zlypher.github.io/" rel="alternate" type="text/html" /><updated>2020-05-27T12:46:04+00:00</updated><id>https://zlypher.github.io/feed.xml</id><title type="html">Software Engineering by Thomas Prochazka</title><subtitle>A little Software Engineering Blog by Thomas Prochazka, filled with posts regarding engineering problems and solutions</subtitle><author><name>Thomas Prochazka</name></author><entry><title type="html">Understanding the WebPageTest Waterfall Chart</title><link href="https://zlypher.github.io/posts/understanding-the-webpagetest-waterfall-chart" rel="alternate" type="text/html" title="Understanding the WebPageTest Waterfall Chart" /><published>2020-05-24T15:15:00+00:00</published><updated>2020-05-24T15:15:00+00:00</updated><id>https://zlypher.github.io/posts/understanding-the-webpagetest-waterfall-chart</id><content type="html" xml:base="https://zlypher.github.io/posts/understanding-the-webpagetest-waterfall-chart">&lt;p&gt;If you earn a living developing websites, one of your considerations should be website performance. An invaluable tool for investigating performance issues and finding bottlenecks is &lt;a href=&quot;https://www.webpagetest.org/&quot;&gt;WebPageTest&lt;/a&gt;. If you have never heard of it before, be sure to check it out and give it a try.&lt;/p&gt;
+
+&lt;p&gt;It may seem quite complex and confusing at first, since they condense a lot of information into a few charts. However, it is well worth the effort to learn and understand it. If you are wondering what all those charts, lines and colors mean, be sure to read this awesome article &lt;a href=&quot;https://calendar.perfplanet.com/2019/reading-a-webpagetest-waterfall-chart/&quot;&gt;“Reading a WebPageTest Waterfall Chart”&lt;/a&gt; from Matt Hobbs. He explains every little piece of WebPageTest and helps you kickstart your web performance debugging capabilities with WebPageTest.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Resources&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.webpagetest.org/&quot;&gt;WebPageTest&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://calendar.perfplanet.com/2019/reading-a-webpagetest-waterfall-chart/&quot;&gt;Reading a WebPageTest Waterfall Chart&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Thomas Prochazka</name></author><summary type="html">If you earn a living developing websites, one of your considerations should be website performance. An invaluable tool for investigating performance issues and finding bottlenecks is WebPageTest. If you have never heard of it before, be sure to check it out and give it a try.</summary></entry><entry><title type="html">VS Code Extension: Formatting Toggle</title><link href="https://zlypher.github.io/posts/vscode-extension-formatting-toggle" rel="alternate" type="text/html" title="VS Code Extension: Formatting Toggle" /><published>2020-05-12T20:38:00+00:00</published><updated>2020-05-12T20:38:00+00:00</updated><id>https://zlypher.github.io/posts/vscode-extension-formatting-toggle</id><content type="html" xml:base="https://zlypher.github.io/posts/vscode-extension-formatting-toggle">&lt;p&gt;If you are using VS Code and working with code formatters like &lt;a href=&quot;https://prettier.io/&quot;&gt;Prettier&lt;/a&gt; regularly, this extension might come in handy. If everything is setup correctly, the code formatters are straight forward and help tremendously. However, sometimes you might need to disable them, because they contradict some linter rules or are not setup correctly in a different project.&lt;/p&gt;
+
+&lt;p&gt;That’s where the &lt;a href=&quot;https://marketplace.visualstudio.com/items?itemName=tombonnike.vscode-status-bar-format-toggle&quot;&gt;Formatting Toggle&lt;/a&gt; extension helps. It’s statement is simple:&lt;/p&gt;
+
+&lt;blockquote class=&quot;c-quote&quot; cite=&quot;https://marketplace.visualstudio.com/items?itemName=tombonnike.vscode-status-bar-format-toggle&quot;&gt;
+    VS Code extension that allows you to toggle the formatter (Prettier, Beautify, …) ON and OFF with a simple click.
+    &lt;small class=&quot;c-quote__source&quot;&gt;https://marketplace.visualstudio.com/items?itemName=tombonnike.vscode-status-bar-format-toggle&lt;/small&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;That is all it does, but it does the trick. It adds a toggle to the VS Code Status Bar, that let’s you quickly enable and disable formatters. Give it a try. It will surely be a useful addition.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Resources&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://marketplace.visualstudio.com/items?itemName=tombonnike.vscode-status-bar-format-toggle&quot;&gt;VS Code Extension: Formatting Toggle&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Thomas Prochazka</name></author><summary type="html">If you are using VS Code and working with code formatters like Prettier regularly, this extension might come in handy. If everything is setup correctly, the code formatters are straight forward and help tremendously. However, sometimes you might need to disable them, because they contradict some linter rules or are not setup correctly in a different project.</summary></entry><entry><title type="html">pomb.us - Build your own React</title><link href="https://zlypher.github.io/posts/pomb-us-build-your-own-react" rel="alternate" type="text/html" title="pomb.us - Build your own React" /><published>2020-05-08T20:48:00+00:00</published><updated>2020-05-08T20:48:00+00:00</updated><id>https://zlypher.github.io/posts/pomb-us-build-your-own-react</id><content type="html" xml:base="https://zlypher.github.io/posts/pomb-us-build-your-own-react">&lt;p&gt;If you are interested in how the magic behind react works and what it takes to build your own basic version of react, be sure to check out &lt;a href=&quot;https://pomb.us/build-your-own-react/&quot;&gt;Build your own React on pomb.us&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;It is a fantastic read. You will learn to build your own react from the ground up. Starting with the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;createElement&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;render&lt;/code&gt; function and working your way up to function components and even hooks. A fair warning though, you will need a bit of time to go through the whole article. However, as a bonus you will find one of the best ways to present evolving code that I have seen in a long time.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Resources&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://pomb.us/build-your-own-react/&quot;&gt;Build your own React&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Thomas Prochazka</name></author><summary type="html">If you are interested in how the magic behind react works and what it takes to build your own basic version of react, be sure to check out Build your own React on pomb.us.</summary></entry><entry><title type="html">CTRL+R is broken in VS Code</title><link href="https://zlypher.github.io/posts/ctrl-r-is-broken-in-vscode" rel="alternate" type="text/html" title="CTRL+R is broken in VS Code" /><published>2020-04-13T13:56:00+00:00</published><updated>2020-04-13T13:56:00+00:00</updated><id>https://zlypher.github.io/posts/ctrl-r-is-broken-in-vscode</id><content type="html" xml:base="https://zlypher.github.io/posts/ctrl-r-is-broken-in-vscode">&lt;p&gt;If you routinely work with VS Code you might be familiar with the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;CTRL + R&lt;/code&gt; shortcut. By default it is configured to open the “File: Open Recent…” window. This is especially handy, if you work on multiple projects in parallel and want to switch between them quickly.&lt;/p&gt;
+
+&lt;p&gt;However, this functionality broke for me recently, after reinstalling my notebook. As it turns out, the culprit was an extension: The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;eg2.vscode-npm-script&lt;/code&gt; extension which improves npm support for VS Code. So why did it break exactly? The extensions adds several new keyboard shortcuts. Some of them use chords including the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;CTRL + R&lt;/code&gt; keys. This stopped VS Code from accepting the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;CTRL + R&lt;/code&gt; shortcut, because it was waiting for the second part of a chord.&lt;/p&gt;
+
+&lt;p&gt;The authors of the extension (from Microsoft) recognized in hindsight, that &lt;a href=&quot;https://github.com/Microsoft/vscode/issues/60711&quot;&gt;this was a mistake&lt;/a&gt; and recommend &lt;a href=&quot;https://github.com/Microsoft/vscode-npm-scripts&quot;&gt;in their README&lt;/a&gt; to remap the shortcut for these commands.&lt;/p&gt;
+
+&lt;p&gt;Now it is up to you to decide, if it is worth to keep the extension and remap the shortcuts or to remove it altogether. In my opinion it offers some interesting functionality, but can safely be removed, since VS Code offers great support for npm out of the box.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Resources&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/Microsoft/vscode/issues/60711&quot;&gt;vscode/issue #60711&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/Microsoft/vscode-npm-scripts&quot;&gt;Microsoft/vscode-npm-scripts&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Thomas Prochazka</name></author><summary type="html">If you routinely work with VS Code you might be familiar with the CTRL + R shortcut. By default it is configured to open the “File: Open Recent…” window. This is especially handy, if you work on multiple projects in parallel and want to switch between them quickly.</summary></entry><entry><title type="html">Help! My NodeList is not an Array</title><link href="https://zlypher.github.io/posts/help-my-nodelist-is-not-an-array" rel="alternate" type="text/html" title="Help! My NodeList is not an Array" /><published>2020-04-04T20:48:00+00:00</published><updated>2020-04-04T20:48:00+00:00</updated><id>https://zlypher.github.io/posts/help-my-nodelist-is-not-an-array</id><content type="html" xml:base="https://zlypher.github.io/posts/help-my-nodelist-is-not-an-array">&lt;p&gt;Let’s say that you have to find a list of all links on a page. This is a fairly basic task and can be solved in different ways. For our purposes, using Vanilla JS, we could either use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;document.getElementsByTagName&lt;/code&gt; or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;document.querySelectorAll&lt;/code&gt;. While the former returns a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;HTMLCollection&lt;/code&gt;, the latter returns a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;NodeList&lt;/code&gt;. They are similar enough for our example, so we’ll go with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;querySelectorAll&lt;/code&gt;. Our code will look something like this:&lt;/p&gt;
+
+&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;c1&quot;&gt;// let elements = document.getElementsByTagName(&quot;a&quot;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;// HTMLCollection(3) [a, a, a]&lt;/span&gt;
+
+&lt;span class=&quot;kd&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;elements&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;querySelectorAll&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;// NodeList(3) [a, a, a]&lt;/span&gt;
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;That looks promising! As a next step, we want to get the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&quot;href&quot;&lt;/code&gt; attribute from each link. So that we end up with a list of urls that page links to. Since we are well versed developers and want to use a functional approach, we use the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;map&lt;/code&gt; function. As a reminder, the map function will execute the callback for each element in the array and create a new array from the return values. Combined with arrow functions we get some concise, expressive code:&lt;/p&gt;
+
+&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;kd&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;links&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;elements&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;map&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;elem&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;elem&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;getAttribute&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;href&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;));&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;// Uncaught TypeError: document.querySelectorAll(...).map is not a function&lt;/span&gt;
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;However, that will result in a nasty TypeError. But why? Both the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;NodeList&lt;/code&gt; and the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;HtmlCollection&lt;/code&gt; look like arrays and can even access single items with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;elements[index]&lt;/code&gt;. As it turns out, there are &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols&quot;&gt;iterable objects&lt;/a&gt; as well as “array-like objects”. Array-like objects have a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;length&lt;/code&gt; property and can access elements via an index, but don’t have all the methods, that natural arrays have. Which is precisely the case with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;NodeList&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;HtmlCollection&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;There are two quick and easy solutions (probably more, but those should be sufficient) to solve this problem:&lt;/p&gt;
+
+&lt;h2 id=&quot;arrayfrom&quot;&gt;Array.from&lt;/h2&gt;
+
+&lt;blockquote class=&quot;c-quote&quot; cite=&quot;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/from&quot;&gt;&quot;The Array.from() method creates a new, shallow-copied Array instance from an array-like or iterable object.&quot;&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&quot;Array.from&quot;&lt;/code&gt; is a new built-in function in ES6 (polyfills for IE are available), which can convert the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;NodeList&lt;/code&gt; and other objects into actual arrays. With that, we are now able to finally use the map function to implement our logic.&lt;/p&gt;
+
+&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;kd&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;elements&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;querySelectorAll&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;links&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;Array&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;from&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;elements&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;map&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;elem&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;elem&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;getAttribute&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;href&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;));&lt;/span&gt;
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;spreadrest-operator&quot;&gt;Spread/Rest operator&lt;/h2&gt;
+
+&lt;p&gt;The second solution utilizes the new spread and rest operators. By extracting the elements of a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;NodeList&lt;/code&gt; and immediately spreading it into a new array.&lt;/p&gt;
+
+&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;kd&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;elements&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;querySelectorAll&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;links&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[...&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;elements&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;map&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;elem&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;elem&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;getAttribute&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;href&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;));&lt;/span&gt;
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;Both solutions work fine for that example. The main take away is, that you should be aware that not everything that looks like an array at first glance, really can be used in all situations like an array. However, additions with ES6 like the spread operator make dealing with arrays (and objects) easier and more comfortable.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Resources&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://developer.mozilla.org/de/docs/Web/API/Document/querySelectorAll&quot;&gt;querySelectorAll MDN&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://developer.mozilla.org/de/docs/Web/API/NodeList&quot;&gt;NodeList&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/from&quot;&gt;Array.from&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://developer.mozilla.org/de/docs/Web/JavaScript/Reference/Operators/Spread_operator&quot;&gt;Spread Operator&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Thomas Prochazka</name></author><summary type="html">Let’s say that you have to find a list of all links on a page. This is a fairly basic task and can be solved in different ways. For our purposes, using Vanilla JS, we could either use document.getElementsByTagName or document.querySelectorAll. While the former returns a HTMLCollection, the latter returns a NodeList. They are similar enough for our example, so we’ll go with querySelectorAll. Our code will look something like this:</summary></entry><entry><title type="html">git check-ignore: a helpful utility</title><link href="https://zlypher.github.io/posts/git-check-ignore-a-helpful-utility" rel="alternate" type="text/html" title="git check-ignore: a helpful utility" /><published>2020-04-01T20:05:00+00:00</published><updated>2020-04-01T20:05:00+00:00</updated><id>https://zlypher.github.io/posts/git-check-ignore-a-helpful-utility</id><content type="html" xml:base="https://zlypher.github.io/posts/git-check-ignore-a-helpful-utility">&lt;p&gt;If you ever wondered, why you can’t add a file to git that you just created, it is probably somewhere ignored in a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.gitignore&lt;/code&gt; file. But from what file and through which rule exactly? Luckily, it is possible to check that with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git check-ignore&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;The usage is quite straight forward. You pass it the path to a file. The command outputs the path if it is ignored.&lt;/p&gt;
+
+&lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; git check-ignore &amp;lt;pathname&amp;gt;
+&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; git check-ignore &lt;span class=&quot;nt&quot;&gt;-v&lt;/span&gt; &amp;lt;pathname&amp;gt;
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;If you use the verbose option &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-v&lt;/code&gt;, the command will additionally output, the exclude pattern that matched the path as well as the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.gitignore&lt;/code&gt; file and the exact line number.&lt;/p&gt;
+
+&lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; git check-ignore &lt;span class=&quot;nt&quot;&gt;-v&lt;/span&gt; .vscode/settings.json
+.gitignore:4:.vscode    .vscode/settings.json
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Resources&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://git-scm.com/docs/git-check-ignore&quot;&gt;Git - git-check-ignore Documentation&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Thomas Prochazka</name></author><summary type="html">If you ever wondered, why you can’t add a file to git that you just created, it is probably somewhere ignored in a .gitignore file. But from what file and through which rule exactly? Luckily, it is possible to check that with git check-ignore.</summary></entry><entry><title type="html">Inspect the return value of a method in Visual Studio Debugger</title><link href="https://zlypher.github.io/posts/inspect-returned-value-with-vs-debugger" rel="alternate" type="text/html" title="Inspect the return value of a method in Visual Studio Debugger" /><published>2020-03-30T19:36:00+00:00</published><updated>2020-03-30T19:36:00+00:00</updated><id>https://zlypher.github.io/posts/inspect-returned-value-with-vs-debugger</id><content type="html" xml:base="https://zlypher.github.io/posts/inspect-returned-value-with-vs-debugger">&lt;p&gt;There is a neat functionality in Visual Studio that is quite helpful while debugging .Net applications. While the functionality itself has been around for a while, I am not sure that everyone working with Visual Studio is aware of it. It is possible to inspect the returned value of a method immediately after it has returned.&lt;/p&gt;
+
+&lt;p&gt;Suppose you have a method like &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Calc&lt;/code&gt; in the following example. The result of the expression on line 10 is immediately returned. However, during debugging, you might want to inspect the return value before it is passed into another method on line 3.&lt;/p&gt;
+
+&lt;div class=&quot;language-c# highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;k&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;Main&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;string&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[]&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;args&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nf&quot;&gt;SomeOtherCalc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;Calc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;));&lt;/span&gt;
+    &lt;span class=&quot;kt&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;foo&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;// ...&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;Calc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;SomeOtherCalc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;// ...&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Traditionally, you could temporarily introduce a local variable &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;result&lt;/code&gt;, store the computation and return &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;result&lt;/code&gt; afterwards. However, that would require you to rebuild the project and introduce temporary unnecessary code.&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;// Possible, but we try to avoid that
+static int Calc(int a, int b)
+{
+    var result = a + b;
+    return result;
+}
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Instead, you can add a breakpoint on your expression on line 10. Once hit, you “Step Out” of the method. This will place the debugger on the line, where the method has been called (line 3). Exactly at this point, you can now inspect the returned value either via the “Immediate Window” by typing &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;$ReturnValue&lt;/code&gt; or via the “Autos” window, where the value will also be displayed.&lt;/p&gt;
+
+&lt;figure&gt;
+    &lt;img src=&quot;/assets/images/returned_value.png&quot; alt=&quot;Inspect the returned value with Visual Studio Debugger&quot; /&gt;
+    &lt;figcaption class=&quot;c-caption&quot;&gt;Inspect the returned value with Visual Studio Debugger&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;With this useful functionality, you can inspect the return values of methods more easily without actually modifying the source code. Take note, that you won’t be able to inspect the return value anymore as soon as you move the debugger forward.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Resources&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.malgreve.net/2014/01/21/how-to-see-the-value-returned-by-a-method-in-visual-studio-debugger/&quot;&gt;How to see the value returned by a method in Visual Studio Debugger?&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Thomas Prochazka</name></author><summary type="html">There is a neat functionality in Visual Studio that is quite helpful while debugging .Net applications. While the functionality itself has been around for a while, I am not sure that everyone working with Visual Studio is aware of it. It is possible to inspect the returned value of a method immediately after it has returned.</summary></entry><entry><title type="html">OrderBy and null in C#</title><link href="https://zlypher.github.io/posts/order-by-and-null-in-csharp" rel="alternate" type="text/html" title="OrderBy and null in C#" /><published>2020-02-26T20:36:00+00:00</published><updated>2020-02-26T20:36:00+00:00</updated><id>https://zlypher.github.io/posts/order-by-and-null-in-csharp</id><content type="html" xml:base="https://zlypher.github.io/posts/order-by-and-null-in-csharp">&lt;p&gt;Recently, I came across an - at first glance - startling interaction between &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;OrderBy&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;null&lt;/code&gt;. Suppose you have a list of players with their name and number of losses. Since it is a legacy implementation, new players “Losses” are initialized with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;null&lt;/code&gt;.&lt;/p&gt;
+
+&lt;div class=&quot;language-c# highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;Player&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;string&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Name&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;get&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;set&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;decimal&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;?&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Losses&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;get&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;set&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;kt&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;allEntries&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;List&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Player&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Player&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Name&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Player A&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Losses&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;5&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Player&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Name&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Player B&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Losses&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;8&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Player&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Name&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Player C&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Losses&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;null&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Player&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Name&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Player D&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Losses&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Player&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Name&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Player F&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Losses&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;10&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;};&lt;/span&gt;
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;We want to get the top 3 players with the lowest number of losses to reward them. We can easily achieve that by using &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;OrderBy&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Take&lt;/code&gt;.&lt;/p&gt;
+
+&lt;div class=&quot;language-c# highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;kt&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;topEntries&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;allEntries&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;OrderBy&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;e&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;e&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Losses&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;Take&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;ToList&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Normally, we would expect our &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;topEntries&lt;/code&gt; to contain the Players “Player D”, “Player A” and “Player B” with 1, 5 and 8 losses respectively. However, soon we realize, that actually “Player C” is the top player with his &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Losses = null&lt;/code&gt;. So if you ever have to sort by a nullable property, be sure to remember that &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;null&lt;/code&gt; values are ordered first by default. In the example, a fix would be trivial by filtering out null values before ordering.&lt;/p&gt;
+
+&lt;div class=&quot;language-c# highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;kt&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;topEntries&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;allEntries&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;Where&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;e&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;e&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Losses&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;!=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;null&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;OrderBy&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;e&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;e&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Losses&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;Take&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;ToList&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;a-deeper-dive&quot;&gt;A deeper dive&lt;/h2&gt;
+
+&lt;p&gt;How does that actually work internally? &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;OrderBy&lt;/code&gt; uses an &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;IComparer&lt;/code&gt; to compare entries and order them properly. It is possible to specify a custom implementation as the second argument for the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;OrderBy&lt;/code&gt; method. If no argument is provided, it will fall back to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Comparer&amp;lt;decimal?&amp;gt;.Default&lt;/code&gt;. Since our type is nullable, this will be a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;NullableComparer&amp;lt;decimal?&amp;gt;&lt;/code&gt;. You can checkout the whole logic and implementation &lt;a href=&quot;https://github.com/microsoft/referencesource/blob/master/mscorlib/system/collections/generic/comparer.cs&quot;&gt;on GitHub&lt;/a&gt;. The important part is the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Compare&lt;/code&gt; method.&lt;/p&gt;
+
+&lt;div class=&quot;language-c# highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+7
+8
+9
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;c1&quot;&gt;// NullableComparer&amp;lt;T&amp;gt; implementation&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;override&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;Compare&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Nullable&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;T&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Nullable&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;T&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;y&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;HasValue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;y&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;HasValue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;value&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;CompareTo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;y&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;value&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;y&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;HasValue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;If you are unsure, what the return values of -1, 0 and +1 mean in that context, you can always refer to &lt;a href=&quot;https://docs.microsoft.com/en-us/dotnet/api/system.icomparable?view=netframework-4.8&quot;&gt;the Documentation&lt;/a&gt;. Basically, if the value is less than zero, “x” is ordered first. If the value is greater than zero, “y” is ordered first. So if we examine the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;NullableComparer&amp;lt;T&amp;gt;::Compare&lt;/code&gt; implementation, we get the following results:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;If “x” is &lt;strong&gt;NOT NULL&lt;/strong&gt; and “y” is &lt;strong&gt;NOT NULL&lt;/strong&gt; ➡ The smaller numeric value will be ordered first&lt;/li&gt;
+  &lt;li&gt;If “x” is &lt;strong&gt;NOT NULL&lt;/strong&gt; and “y” is &lt;strong&gt;NULL&lt;/strong&gt; ➡ “y” (null) is ordered first&lt;/li&gt;
+  &lt;li&gt;If “x” is &lt;strong&gt;NULL&lt;/strong&gt; and “y” is &lt;strong&gt;NOT NULL&lt;/strong&gt; ➡ “x” (null) is ordered first&lt;/li&gt;
+  &lt;li&gt;If “x” is &lt;strong&gt;NULL&lt;/strong&gt; and “y” is &lt;strong&gt;NULL&lt;/strong&gt; ➡ Both are null and don’t need to be reordered.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;And that is the explanation, why &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;null&lt;/code&gt; values are ordered first. As you see, with Microsoft publishing a lot of their source code on GitHub, it is straight forward to find the implementation of Framework functionality and reason about it.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Resources&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://docs.microsoft.com/en-us/dotnet/api/system.linq.enumerable.orderby?view=netframework-4.8&quot;&gt;MSDN Enumerable.OrderBy documentation&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/microsoft/referencesource/blob/master/mscorlib/system/collections/generic/comparer.cs&quot;&gt;Comparer of T source code&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://docs.microsoft.com/en-us/dotnet/api/system.icomparable?view=netframework-4.8&quot;&gt;IComparable Interface documentation&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Thomas Prochazka</name></author><summary type="html">Recently, I came across an - at first glance - startling interaction between OrderBy and null. Suppose you have a list of players with their name and number of losses. Since it is a legacy implementation, new players “Losses” are initialized with null.</summary></entry><entry><title type="html">Use webpack aliases with TypeScript</title><link href="https://zlypher.github.io/posts/webpack-alias-with-typescript" rel="alternate" type="text/html" title="Use webpack aliases with TypeScript" /><published>2020-02-04T19:11:00+00:00</published><updated>2020-02-04T19:11:00+00:00</updated><id>https://zlypher.github.io/posts/webpack-alias-with-typescript</id><content type="html" xml:base="https://zlypher.github.io/posts/webpack-alias-with-typescript">&lt;p&gt;If you work on a decently sized TypeScript application, chances are that your source directories are nested quite a bit and you will have various components which need to import something from completely different folders. So if you find yourself writing a lot of imports with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;../../../&lt;/code&gt;, then this tip might be helpful for you!&lt;/p&gt;
+
+&lt;p&gt;A useful tool in that case are import aliases. If you are using webpack these are part of the &lt;a href=&quot;https://webpack.js.org/configuration/resolve/&quot;&gt;Module Resolution&lt;/a&gt;. &lt;a href=&quot;https://medium.com/@justintulk/solve-module-import-aliasing-for-webpack-jest-and-vscode-74007ce4adc9&quot;&gt;Justin Tulk wrote a great post&lt;/a&gt; about import aliasing with webpack, VS Code and Jest, so be sure to check that one out!&lt;/p&gt;</content><author><name>Thomas Prochazka</name></author><summary type="html">If you work on a decently sized TypeScript application, chances are that your source directories are nested quite a bit and you will have various components which need to import something from completely different folders. So if you find yourself writing a lot of imports with ../../../, then this tip might be helpful for you!</summary></entry><entry><title type="html">Advent of Code 2019</title><link href="https://zlypher.github.io/posts/advent-of-code-2019" rel="alternate" type="text/html" title="Advent of Code 2019" /><published>2019-12-05T18:10:00+00:00</published><updated>2019-12-05T18:10:00+00:00</updated><id>https://zlypher.github.io/posts/advent-of-code-2019</id><content type="html" xml:base="https://zlypher.github.io/posts/advent-of-code-2019">&lt;p&gt;Christmas time is here. Work is going slow. There is not a lot of stuff to do. If that applies to you and you enjoy a programming challenge, then I have news for you! Check out this years version of &lt;a href=&quot;https://adventofcode.com/&quot;&gt;Advent of Code&lt;/a&gt;! Each day a new puzzle will be published with two parts. You can earn stars for each completed puzzle and even compete on a leaderboard (the first 100 solutions receive more stars).&lt;/p&gt;
+
+&lt;p&gt;The author, &lt;a href=&quot;http://was.tl/&quot;&gt;Eric Wastl&lt;/a&gt;, puts in a lot of effort into Advent of Code each year. So show him some love and spread the word!&lt;/p&gt;
+
+&lt;blockquote class=&quot;c-quote&quot; cite=&quot;https://adventofcode.com/2019/about&quot;&gt;
+Advent of Code is an Advent calendar of small programming puzzles for a variety of skill sets and skill levels that can be solved in any programming language you like. People use them as a speed contest, interview prep, company training, university coursework, practice problems, or to challenge each other.
+&lt;small class=&quot;c-quote__source&quot;&gt;https://adventofcode.com/2019/about&lt;/small&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I will also join in on the fun and publish my solutions on GitHub at &lt;a href=&quot;https://github.com/zlypher/advent-of-code&quot;&gt;zlypher/advent-of-code&lt;/a&gt;. However, I am already a few days behind, so don’t count on it being completely up to date.&lt;/p&gt;
+
+&lt;p&gt;If you are stuck or simply want to exchange some thoughts and solutions with other people, I encourage you to check out the &lt;a href=&quot;https://www.reddit.com/r/adventofcode/&quot;&gt;Advent of Code on Reddit&lt;/a&gt;. Don’t be intimidated though, there are some impressive solutions posted.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Resources&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://adventofcode.com/&quot;&gt;Advent of Code&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://was.tl/&quot;&gt;Eric Wastl&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.reddit.com/r/adventofcode/&quot;&gt;Advent of Code on Reddit&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Thomas Prochazka</name></author><summary type="html">Christmas time is here. Work is going slow. There is not a lot of stuff to do. If that applies to you and you enjoy a programming challenge, then I have news for you! Check out this years version of Advent of Code! Each day a new puzzle will be published with two parts. You can earn stars for each completed puzzle and even compete on a leaderboard (the first 100 solutions receive more stars).</summary></entry></feed>
