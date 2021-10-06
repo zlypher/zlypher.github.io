@@ -1,0 +1,10 @@
+@import "../_variables";
+
+.c-quote {
+    font-style: italic;
+    margin: $space-4 $space-7;
+
+    &__source {
+        display: block;
+    }
+}
