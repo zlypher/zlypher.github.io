@@ -2,7 +2,6 @@
 
 Personal blog with random notes and articles about Software Engineering
 
-[![Build Status](https://travis-ci.org/zlypher/zlypher.github.io.svg?branch=master)](https://travis-ci.org/zlypher/zlypher.github.io)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 # LICENSE
