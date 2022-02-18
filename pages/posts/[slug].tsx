@@ -2,7 +2,9 @@ import { ParsedUrlQuery } from "querystring";
 import { GetStaticPaths, GetStaticProps } from "next";
 import PostLayout from "../../layouts/post-layout";
 import { getAllPosts, getPostBySlug, IPost } from "../../lib/api";
-import markdownToHtml from "../../lib/markdown-to-html";
+import ReactMarkdown from "react-markdown";
+import rehypeRaw from "rehype-raw";
+import rehypeHighlight from "rehype-highlight";
 
 interface IPostProps {
   post: IPost;
@@ -11,7 +13,9 @@ interface IPostProps {
 export default function Post({ post }: IPostProps) {
   return (
     <PostLayout post={post}>
-      <div dangerouslySetInnerHTML={{ __html: post.content }} />
+      <ReactMarkdown rehypePlugins={[rehypeRaw, rehypeHighlight]}>
+        {post.content}
+      </ReactMarkdown>
     </PostLayout>
   );
 }
@@ -26,12 +30,10 @@ export const getStaticProps: GetStaticProps<
 > = async ({ params }) => {
   const post = getPostBySlug(params.slug);
 
-  const content = await markdownToHtml(post.content || "");
   return {
     props: {
       post: {
         ...post,
-        content,
       },
     },
   };
