@@ -2,6 +2,7 @@
 
 Personal blog with random notes and articles about Software Engineering
 
+[![Build and Deploy](https://github.com/zlypher/zlypher.github.io/actions/workflows/gh-pages.yml/badge.svg)](https://github.com/zlypher/zlypher.github.io/actions/workflows/gh-pages.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 # LICENSE
