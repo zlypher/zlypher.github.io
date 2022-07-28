@@ -1,0 +1,36 @@
+import PageLayout from "../layouts/page-layout";
+
+export const linkCollection = [
+  {
+    year: 2022,
+    links: ["https://www.toptal.com/developers/sorting-algorithms"],
+  },
+];
+
+export const meta = {
+  title: "Link Collection",
+  description: "Various links I found useful during the years",
+};
+
+Below you can find a list of various links I found useful.
+
+<section>
+  {linkCollection.map((lc) => {
+    return (
+      <section key={lc.year}>
+        <h2>{lc.year}</h2>
+        <ul>
+          {lc.links.map((l) => (
+            <li key={l}>
+              <a href={l}>{l}</a>
+            </li>
+          ))}
+        </ul>
+      </section>
+    );
+  })}
+</section>
+
+export default ({ children }) => (
+  <PageLayout page={meta}>{children}</PageLayout>
+);
