@@ -1,4 +1,4 @@
-# zlypher.github.io
+# tompka.io
 
 Personal blog with random notes and articles about Software Engineering
 
