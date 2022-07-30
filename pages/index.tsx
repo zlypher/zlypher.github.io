@@ -11,7 +11,11 @@ interface IHomeProps {
 export default function Home({ posts }: IHomeProps) {
   return (
     <BaseLayout>
-      <h1 className="o-page-title">Software Engineering - zlypher.github.io</h1>
+      <h1 className="o-page-title">Thomas Prochazka
+        <span className="o-page-title__sub">
+          Dancer, Horseman and Software Engineer
+        </span>
+      </h1>
       <section className="c-post-overview">
         <aside className="o-sidebar">
           <section className="c-profile">
@@ -21,12 +25,9 @@ export default function Home({ posts }: IHomeProps) {
               alt="Thomas Prochazka Avatar"
             />
             <div className="c-profile__wrapper">
-              <h2 className="c-profile__name">
-                <a href="/">Thomas Prochazka</a>
-              </h2>
-              <span className="c-profile__sub">
-                Dancer, Horseman and Software Engineer
-              </span>
+              <p className="c-profile__desc">
+                Over 9 years of industry experience in professional web development with heavy focus on Maintainability, Code Quality and Web Performance.
+              </p>
               <ul className="c-profile__contacts">
                 <li className="c-profile__contact">
                   <a

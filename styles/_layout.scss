@@ -70,4 +70,10 @@ p {
     font-weight: normal;
     line-height: 44px;
     text-align: center;
+
+    &__sub {
+        font-size: 18px;
+        display: flex;
+        justify-content: center;
+    }
 }

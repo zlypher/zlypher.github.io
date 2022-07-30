@@ -3,7 +3,7 @@ import Head from "next/head";
 const BaseLayout = (props) => (
   <>
     <Head>
-      <title>Software Engineering by Thomas Prochazka</title>
+      <title>Thomas Prochazka - Dancer, Horseman and Software Engineer</title>
       <meta charSet="utf-8" />
 
       <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
@@ -15,7 +15,7 @@ const BaseLayout = (props) => (
       />
       <meta
         name="keywords"
-        content="Software Engineer, Software Development, Blog"
+        content="Software Engineer, Software Development, Blog, Web Development, Web Performance"
       />
 
       <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
