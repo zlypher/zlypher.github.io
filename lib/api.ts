@@ -33,7 +33,7 @@ const getPostFromFilename = (filename: string): IPost => {
     ...data,
     slug: slug,
     content,
-    url: "https://zlypher.github.io/posts/" + slug,
+    url: "https://www.tompka.io/posts/" + slug,
   } as IPost;
 };
 

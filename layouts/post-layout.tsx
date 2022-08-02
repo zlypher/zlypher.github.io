@@ -62,7 +62,7 @@ const PostLayout = ({ children, post }: IPostLayoutProps) => (
           <a
             className="c-post__share-link"
             target="blank"
-            href={`http://www.facebook.com/sharer/sharer.php?u=${
+            href={`https://www.facebook.com/sharer/sharer.php?u=${
               post.url
             }&title=${encodeURIComponent(post.title)}`}
           >
