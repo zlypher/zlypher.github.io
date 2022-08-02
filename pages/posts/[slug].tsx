@@ -14,7 +14,12 @@ interface IPostProps {
 export default function Post({ post }: IPostProps) {
   return (
     <PostLayout post={post}>
-      <ReactMarkdown rehypePlugins={[rehypeRaw, rehypeHighlight]} remarkPlugins={[remarkGfm]}>
+      <ReactMarkdown rehypePlugins={[rehypeRaw, rehypeHighlight]} remarkPlugins={[remarkGfm]}
+            components={{
+                a: props => {
+                    return <a href={props.href} target="_blank" rel="noreferrer noopener">{props.children}</a>
+                }
+            }}>
         {post.content}
       </ReactMarkdown>
     </PostLayout>

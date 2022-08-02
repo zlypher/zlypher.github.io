@@ -50,6 +50,7 @@ const PostLayout = ({ children, post }: IPostLayoutProps) => (
           <a
             className="c-post__share-link"
             target="blank"
+            rel="noreferrer noopener"
             href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(
               post.title
             )}%20${post.url}`}
@@ -62,6 +63,7 @@ const PostLayout = ({ children, post }: IPostLayoutProps) => (
           <a
             className="c-post__share-link"
             target="blank"
+            rel="noreferrer noopener"
             href={`https://www.facebook.com/sharer/sharer.php?u=${
               post.url
             }&title=${encodeURIComponent(post.title)}`}
