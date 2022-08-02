@@ -5,5 +5,5 @@ const withMDX = require("@next/mdx")({
 
 module.exports = withMDX({
   pageExtensions: ["js", "jsx", "ts", "tsx", "mdx"],
-  assetPrefix: ghPages ? "/zlypher.github.io/" : "",
+  assetPrefix: ghPages ? "/tompka.io/" : "",
 });
