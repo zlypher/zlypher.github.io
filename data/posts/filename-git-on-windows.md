@@ -6,7 +6,7 @@ date:   2017-09-27 21:30:00 +0100
 categories: Git
 ---
 
-Today I wanted to manually deploy a [Create React App](https://github.com/facebookincubator/create-react-app){:target="_blank" rel="noopener noreferrer"} project to Github Pages. Now, normally this happens via Travis CI after each build, but this time I wanted to manually verify something. Luckily, this is pretty easy with CRA. If you installed the "gh-pages" packages and added the required script to package.json you only need to execute the deploy script and you are good to go.
+Today I wanted to manually deploy a [Create React App](https://github.com/facebookincubator/create-react-app) project to Github Pages. Now, normally this happens via Travis CI after each build, but this time I wanted to manually verify something. Luckily, this is pretty easy with CRA. If you installed the "gh-pages" packages and added the required script to package.json you only need to execute the deploy script and you are good to go.
 
 ## The Problem
 

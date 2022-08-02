@@ -5,7 +5,7 @@ description: Easily create GitHub Releases with GoReleaser
 date:   2017-12-13 22:45:00 +0200
 ---
 
-So you just finished your neat little go project and want to distribute it via [Github Releases](https://help.github.com/articles/about-releases/){:target="_blank" rel="noopener noreferer"}. Fear not! [GoReleaser](https://goreleaser.com/){:target="_blank" rel="noopener noreferer"} is an amazing tool to get you started with only a few steps.
+So you just finished your neat little go project and want to distribute it via [Github Releases](https://help.github.com/articles/about-releases/). Fear not! [GoReleaser](https://goreleaser.com/) is an amazing tool to get you started with only a few steps.
 
 **Requirements:**
 - Go
@@ -34,7 +34,7 @@ So you just finished your neat little go project and want to distribute it via [
           - amd64
     ```
 
-3. Make sure to create a Github Token and add it as an environment variable as `GITHUB_TOKEN`. [Find out how to create your Github Token](https://github.com/blog/1509-personal-api-tokens){:target="_blank" rel="noopener noreferer"}
+3. Make sure to create a Github Token and add it as an environment variable as `GITHUB_TOKEN`. [Find out how to create your Github Token](https://github.com/blog/1509-personal-api-tokens)
 
     ```bash
     export GITHUB_TOKEN=4a68...
@@ -62,5 +62,5 @@ You now have your first release for your github repository complete with downloa
 GoReleaser is an amazing tool which works exceptionally well and was really painless to setup.
 
 Read up on this topic:
-* [GoReleaser Website](https://goreleaser.com/){:target="_blank" rel="noopener noreferer"}
-* [GoReleaser Github Repository](https://github.com/goreleaser/goreleaser){:target="_blank" rel="noopener noreferer"}
+* [GoReleaser Website](https://goreleaser.com/)
+* [GoReleaser Github Repository](https://github.com/goreleaser/goreleaser)

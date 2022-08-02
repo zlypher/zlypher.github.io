@@ -6,7 +6,7 @@ date:   2017-07-23 19:30:00 +0100
 categories: SVG Web Getting_Started
 ---
 
-Modern websites have a lot of icons scattered around. A solid technique to implement those icons are SVG sprites. As it turns out, it's pretty easy to start using them. If you can't or don't want to use SVGs, an alternative are icon fonts like [Glyphicons from Bootstrap](https://getbootstrap.com/components/#glyphicons){:target="_blank" rel="noopener noreferrer"} or [Font Awesome](http://fontawesome.io/){:target="_blank" rel="noopener noreferrer"}.
+Modern websites have a lot of icons scattered around. A solid technique to implement those icons are SVG sprites. As it turns out, it's pretty easy to start using them. If you can't or don't want to use SVGs, an alternative are icon fonts like [Glyphicons from Bootstrap](https://getbootstrap.com/components/#glyphicons) or [Font Awesome](http://fontawesome.io/).
 
 There are already a lot of solid and good guides in mastering SVG sprites, so this post will focus on the bare essentials to get started. If you are in a hurry, you can skipt straight to the [results](#result).
 
@@ -30,7 +30,7 @@ There are already a lot of solid and good guides in mastering SVG sprites, so th
 
     Note: If you dislike inline styles, you can define a css class and set the display property there. Just make sure, that the svg doesn't show up.
 
-2. Get the actual svg icon from your designer or from the web. There are a lot of websites out there which offer free (always check the license though) svg icons. For this example, let's export an icon from [icomoon](https://icomoon.io/app/){:target="_blank" rel="noopener noreferrer"}. It will look something like this:
+2. Get the actual svg icon from your designer or from the web. There are a lot of websites out there which offer free (always check the license though) svg icons. For this example, let's export an icon from [icomoon](https://icomoon.io/app/). It will look something like this:
 
     ```html
     <symbol id="icon-html-five" viewBox="0 0 32 32">
@@ -61,7 +61,7 @@ There are already a lot of solid and good guides in mastering SVG sprites, so th
 
 ## Result
 
-So all in all your code can look something like the following snippet. Or you can view and edit [an example here](https://codepen.io/zlypher/pen/wqzMKE){:target="_blank" rel="noopener noreferrer"}.
+So all in all your code can look something like the following snippet. Or you can view and edit [an example here](https://codepen.io/zlypher/pen/wqzMKE).
 
 ```html
 <body>
@@ -84,11 +84,11 @@ So all in all your code can look something like the following snippet. Or you ca
 
 If you want to dive deeper into the topic I suggest to scan and read through the following links and experiment with SVGs yourself.
 
-* [An Overview of SVG Sprite Creation Techniques](https://24ways.org/2014/an-overview-of-svg-sprite-creation-techniques/){:target="_blank" rel="noopener noreferrer"}
-* [How to Implement Cross-Browser SVG Sprites](https://webdesign.tutsplus.com/tutorials/how-to-implement-cross-browser-svg-sprites--cms-22427){:target="_blank" rel="noopener noreferrer"}
-* [How to Create and Manage SVG Sprites](https://www.webdesignerdepot.com/2017/05/how-to-create-and-manage-svg-sprites/){:target="_blank" rel="noopener noreferrer"}
-* [Icon System with SVG Sprites](https://css-tricks.com/svg-sprites-use-better-icon-fonts/){:target="_blank" rel="noopener noreferrer"}
-* [SVG "symbol" a Good Choice for Icons](https://css-tricks.com/svg-symbol-good-choice-icons/){:target="_blank" rel="noopener noreferrer"}
+* [An Overview of SVG Sprite Creation Techniques](https://24ways.org/2014/an-overview-of-svg-sprite-creation-techniques/)
+* [How to Implement Cross-Browser SVG Sprites](https://webdesign.tutsplus.com/tutorials/how-to-implement-cross-browser-svg-sprites--cms-22427)
+* [How to Create and Manage SVG Sprites](https://www.webdesignerdepot.com/2017/05/how-to-create-and-manage-svg-sprites/)
+* [Icon System with SVG Sprites](https://css-tricks.com/svg-sprites-use-better-icon-fonts/)
+* [SVG "symbol" a Good Choice for Icons](https://css-tricks.com/svg-symbol-good-choice-icons/)
 
 ## Things to keep in mind
 

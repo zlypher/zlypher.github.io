@@ -11,10 +11,10 @@ If you are using links with `target="blank"` you might expose a vulnerability. T
 Using target="_blank" without rel="noopener noreferrer" is a security risk: see https://mathiasbynens.github.io/rel-noopener  react/jsx-no-target-blank
 ```
 
-There are actually a lot of blog posts going into great lengths explaining the details of this security vulnerability. So be sure to check them out. As a starting point, check out the [hacker news article from yesterday](https://news.ycombinator.com/item?id=15685324){:target="_blank" rel="noopener noreferrer"}.
+There are actually a lot of blog posts going into great lengths explaining the details of this security vulnerability. So be sure to check them out. As a starting point, check out the [hacker news article from yesterday](https://news.ycombinator.com/item?id=15685324).
 
 Read up on this topic:
-* [Mathias Bynens: About rel=noopener](https://mathiasbynens.github.io/rel-noopener){:target="_blank" rel="noopener noreferer"}
-* [Alex Yumashev: Target="_blank" - the most underestimated vulnerability ever](https://www.jitbit.com/alexblog/256-targetblank---the-most-underestimated-vulnerability-ever/){:target="_blank" rel="noopener noreferer"}
-* [Browser Support for "noopener"](https://caniuse.com/#search=noopener){:target="_blank" rel="noopener noreferer"}
-* [MDN link documentation](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a#attr-target){:target="_blank" rel="noopener noreferer"}
+* [Mathias Bynens: About rel=noopener](https://mathiasbynens.github.io/rel-noopener)
+* [Alex Yumashev: Target="_blank" - the most underestimated vulnerability ever](https://www.jitbit.com/alexblog/256-targetblank---the-most-underestimated-vulnerability-ever/)
+* [Browser Support for "noopener"](https://caniuse.com/#search=noopener)
+* [MDN link documentation](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a#attr-target)

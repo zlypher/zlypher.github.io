@@ -5,6 +5,7 @@ import { getAllPosts, getPostBySlug, IPost } from "../../lib/api";
 import ReactMarkdown from "react-markdown";
 import rehypeRaw from "rehype-raw";
 import rehypeHighlight from "rehype-highlight";
+import remarkGfm from "remark-gfm";
 
 interface IPostProps {
   post: IPost;
@@ -13,7 +14,7 @@ interface IPostProps {
 export default function Post({ post }: IPostProps) {
   return (
     <PostLayout post={post}>
-      <ReactMarkdown rehypePlugins={[rehypeRaw, rehypeHighlight]}>
+      <ReactMarkdown rehypePlugins={[rehypeRaw, rehypeHighlight]} remarkPlugins={[remarkGfm]}>
         {post.content}
       </ReactMarkdown>
     </PostLayout>

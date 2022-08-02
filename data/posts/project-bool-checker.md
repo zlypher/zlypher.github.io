@@ -5,7 +5,7 @@ description: Determine what any boolean expression evaluates to
 date:   2018-07-22 21:56:00 +0200
 ---
 
-Checkout my new small [side project "Bool Checker"](https://zlypher.github.io/bool/){:target="_blank" rel="noopener noreferer"}.
+Checkout my new small [side project "Bool Checker"](https://zlypher.github.io/bool/).
 
 ## What does it do?
 
@@ -19,9 +19,9 @@ Apart from that I took some time to create it and it would be awesome to hear wh
 
 ## Why did I create it?
 
-I was following the chapters from [Craftin Interpreters by Bob Nystrom](http://www.craftinginterpreters.com/){:target="_blank" rel="noopener noreferer"} for quite some time. So I was looking for a chance to implement this knowledge in a small app and boolean expressions seemed to be a reasonable choice for an interpreter.
+I was following the chapters from [Craftin Interpreters by Bob Nystrom](http://www.craftinginterpreters.com/) for quite some time. So I was looking for a chance to implement this knowledge in a small app and boolean expressions seemed to be a reasonable choice for an interpreter.
 
 Further Links:
 
-* [Bool GitHub Repository](https://zlypher.github.io/bool/){:target="_blank" rel="noopener noreferer"}
-* [Crafting Interpreters TOC](http://www.craftinginterpreters.com/contents.html){:target="_blank" rel="noopener noreferer"}
+* [Bool GitHub Repository](https://zlypher.github.io/bool/)
+* [Crafting Interpreters TOC](http://www.craftinginterpreters.com/contents.html)

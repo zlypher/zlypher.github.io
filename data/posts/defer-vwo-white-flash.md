@@ -15,7 +15,7 @@ First general idea: Load the website, open dev tools and check the console. One 
 GET https://dev.visualwebsiteoptimizer.com/j.php?a=52337&u=XXX&r=0.8674099101753603 net::ERR_BLOCKED_BY_CLIENT
 ```
 
-Well [uBlock Origins](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm?hl=de){:target="_blank" rel="noopener noreferrer"} blocks the loading of [Visual Website Optimizer](https://vwo.com/){:target="_blank" rel="noopener noreferrer"}, but that can't be the problem, right? Let's remove the line and check again. And sure enough, the white flash is gone...
+Well [uBlock Origins](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm?hl=de) blocks the loading of [Visual Website Optimizer](https://vwo.com/), but that can't be the problem, right? Let's remove the line and check again. And sure enough, the white flash is gone...
 
 As it turns out, in a previous attempt to make the site loading more efficient, the VWO snippet was extracted into a separate js file and loaded with the "defer" attribute.
 

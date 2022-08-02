@@ -51,7 +51,7 @@ let links = [...elements].map(elem => elem.getAttribute("href"));
 Both solutions work fine for that example. The main take away is, that you should be aware that not everything that looks like an array at first glance, really can be used in all situations like an array. However, additions with ES6 like the spread operator make dealing with arrays (and objects) easier and more comfortable.
 
 **Resources**
-* [querySelectorAll MDN](https://developer.mozilla.org/de/docs/Web/API/Document/querySelectorAll)
-* [NodeList](https://developer.mozilla.org/de/docs/Web/API/NodeList)
+* [querySelectorAll MDN](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelectorAll)
+* [NodeList](https://developer.mozilla.org/en-US/docs/Web/API/NodeList)
 * [Array.from](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/from)
-* [Spread Operator](https://developer.mozilla.org/de/docs/Web/JavaScript/Reference/Operators/Spread_operator)
+* [Spread syntax](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax)

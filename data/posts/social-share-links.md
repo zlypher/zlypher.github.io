@@ -53,7 +53,7 @@ SMS share links are a bit special. Different behaviour on Android and iOS. You d
 
 ## Others
 
-There are a lot of other social networks and ways to share content. But don't worry, there are a lot of resources available online, where you can [generate social](http://www.sharelinkgenerator.com/){:target="_blank" rel="noopener noreferer"} [share links](https://sharingbuttons.io/){:target="_blank" rel="noopener noreferer"} or check the [share urls](https://github.com/bradvin/social-share-urls){:target="_blank" rel="noopener noreferer"}.
+There are a lot of other social networks and ways to share content. But don't worry, there are a lot of resources available online, where you can [generate social](http://www.sharelinkgenerator.com/) [share links](https://sharingbuttons.io/) or check the [share urls](https://github.com/bradvin/social-share-urls).
 
 ## Conclusion
 
@@ -65,12 +65,12 @@ To sum up, it is very easy to get started and integrate social share links into 
 
 
 Read up on this topic:
-* [StackOverflow answer regarding SMS share link](https://stackoverflow.com/a/19126326/733368){:target="_blank" rel="noopener noreferer"}
+* [StackOverflow answer regarding SMS share link](https://stackoverflow.com/a/19126326/733368)
 
 <section class="c-update" markdown="1">
 **Update 2018-01-18:**
 
 It appears, that iOS handles the SMS share links differently than Android. Android accepts a link format like `sms:[PHONE NO]?body=[TEXT CONTENT]`. However, this will fail on iOS. Instead you have to use `sms:[PHONE NO];body=[TEXT CONTENT]` for old iOS versions and `sms:[PHONE NO]&body=[TEXT CONTENT]` for iOS 8 and above. Take note of the delimiter in front of the body parameter!
 
-Check out [How to pre-populate the sms body text via an html link](https://stackoverflow.com/q/6480462/733368){:target="_blank" rel="noopener noreferer"} via StackOverflow.
+Check out [How to pre-populate the sms body text via an html link](https://stackoverflow.com/q/6480462/733368) via StackOverflow.
 </section>

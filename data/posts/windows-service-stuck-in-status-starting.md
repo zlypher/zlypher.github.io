@@ -42,5 +42,5 @@ SUCESS: The process with PID 3976 has been terminated.
 This will kill the service completely and you should be able to restart it again.
 
 Read up on this topic:
-* [How to recover from Windows service that is stuck in starting or stopped state](https://www.schneider-electric.com/en/faqs/FA239679/){:target="_blank" rel="noopener noreferer"}
-* [How to kill a windows service stuck on stopping or starting](http://support.minisoft.com/index.php/how-to-kill-a-windows-service-stuck-on-stopping-or-starting/){:target="_blank" rel="noopener noreferer"}
+* [How to recover from Windows service that is stuck in starting or stopped state](https://www.schneider-electric.com/en/faqs/FA239679/)
+* How to kill a windows service stuck on stopping or starting (support.minisoft.com/index.php/how-to-kill-a-windows-service-stuck-on-stopping-or-starting/ **Not Available anymore**)

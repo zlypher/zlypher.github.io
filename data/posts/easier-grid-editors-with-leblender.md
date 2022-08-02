@@ -30,5 +30,5 @@ So if you are regularly working with Umbraco and are using Grid Layout (or think
 
 **Resources**
 * [LeBlender Umbraco Extension](https://our.umbraco.com/packages/backoffice-extensions/leblender/)
-* [Make your Umbraco Grid Layout smarter with LeBlender 1.0.0](http://lecoati.com/en/leblog/make-your-umbraco-grid-layout-smarter-with-leblender-100/)
+* ~~Make your Umbraco Grid Layout smarter with LeBlender 1.0.0~~ **Not Available anymore**
 * [Grid Layout documentation](https://our.umbraco.com/documentation/getting-started/backoffice/property-editors/built-in-property-editors/grid-layout)

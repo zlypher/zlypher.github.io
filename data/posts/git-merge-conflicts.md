@@ -26,8 +26,8 @@ B: Stay calm!
 
 So what is there left to do in case of a merge conflict? You need to remove the unwanted change and delete the conflicts markers. So that only the code/text is left that you actually want. Commit and you are done.
 
-And what is the difference to visual merge tools? Basically there is none. They only thing these tools offer is the "visual" part. The highlight the changes from the different branches a bit nicer - often side by side - than an ordinary text editor. However, modern text editors like Atom or [Visual Code normally provide pretty good help with merging](https://code.visualstudio.com/docs/editor/versioncontrol#_merge-conflicts){:target="_blank" rel="noopener noreferer"} as well.
+And what is the difference to visual merge tools? Basically there is none. They only thing these tools offer is the "visual" part. The highlight the changes from the different branches a bit nicer - often side by side - than an ordinary text editor. However, modern text editors like Atom or [Visual Code normally provide pretty good help with merging](https://code.visualstudio.com/docs/editor/versioncontrol#_merge-conflicts) as well.
 
 So the next time you encounter a merge conflict, don't fret! Remember that merge conflicts can - in most cases easily - be resolved by opening the file in an text editor and removing the unwanted text as well as the conflict markers.
 
-GitHub has pretty good articles on dealing with [merge conflicts](https://help.github.com/articles/about-merge-conflicts/){:target="_blank" rel="noopener noreferer"} and [resolving merge conflicts](https://help.github.com/articles/resolving-a-merge-conflict-using-the-command-line/){:target="_blank" rel="noopener noreferer"}, so be sure to check them out.
+GitHub has pretty good articles on dealing with [merge conflicts](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/about-merge-conflicts) and [resolving merge conflicts](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/resolving-a-merge-conflict-using-the-command-line), so be sure to check them out.
