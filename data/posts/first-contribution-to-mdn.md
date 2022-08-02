@@ -15,7 +15,7 @@ After signing in and editing a page, you will see a huge RichText editor. The br
 
 <img src="/assets/images/mdn_edit_compatibility.png" alt="Note on Edit for the compatibility table">
 
-So the browser compatibility data is actually managed in a separate [git repository on GitHub](https://github.com/mdn/browser-compat-data). So let's head over to GitHub and check it out. The repository is quite nicely structured and really well documented. The [README.md](https://github.com/mdn/browser-compat-data/blob/master/README.md) describes the structure of the repository and the [CONTRIBUTING.md](CONTRIBUTING.md) explains what you should be aware of if you want to contribute.
+So the browser compatibility data is actually managed in a separate [git repository on GitHub](https://github.com/mdn/browser-compat-data). So let's head over to GitHub and check it out. The repository is quite nicely structured and really well documented. The [README.md](https://github.com/mdn/browser-compat-data/blob/master/README.md) describes the structure of the repository and the CONTRIBUTING.md explains what you should be aware of if you want to contribute.
 
 So I quickly browser through the open Pull Requests, but I didn't find anything for my specific issue. Great! So let's find out where we can make the necessary changes. And sure enough, we find the file `/html/elements/input/color.json` which contains the exact data we want to modify.
 
