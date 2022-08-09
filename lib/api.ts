@@ -45,3 +45,7 @@ export function getAllPosts(): IPost[] {
 
   return posts;
 }
+
+export function getLatestPosts(count: number): IPost[] {
+  return getAllPosts().slice(0, count);
+}
