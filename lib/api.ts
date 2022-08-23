@@ -15,6 +15,8 @@ export interface IPost {
   description: string;
   date: Date;
   url: string;
+  banner?: string;
+  bannerCredits?: string;
 }
 
 const getAllPostFiles = () => {

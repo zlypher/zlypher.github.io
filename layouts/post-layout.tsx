@@ -8,6 +8,9 @@ interface IPostLayoutProps {
   children: React.ReactNode;
 }
 
+const fallbackImage =
+  "https://www.gravatar.com/avatar/52a73317cd435a835d6cc927959f988c";
+
 const PostLayout = ({ children, post }: IPostLayoutProps) => (
   <BaseLayout>
     <Head>
@@ -16,7 +19,7 @@ const PostLayout = ({ children, post }: IPostLayoutProps) => (
       <meta property="og:description" content={post.description} />
       <meta
         property="og:image"
-        content="https://www.gravatar.com/avatar/52a73317cd435a835d6cc927959f988c"
+        content={post.banner ? post.banner : fallbackImage}
       />
       <meta property="og:url" content={post.url} />
       <meta name="twitter:card" content="summary" />
@@ -42,6 +45,9 @@ const PostLayout = ({ children, post }: IPostLayoutProps) => (
           {post.title}
         </h1>
       </header>
+      {post.banner ? (
+        <BannerImage src={post.banner} alt={`Image by ${post.bannerCredits}`} />
+      ) : null}
       <div className="c-post__content" itemProp="articleBody">
         {children}
       </div>
@@ -82,5 +88,23 @@ const PostLayout = ({ children, post }: IPostLayoutProps) => (
     </article>
   </BaseLayout>
 );
+
+interface IBannerImageProps {
+  src: string;
+  alt: string;
+}
+
+const BannerImage = ({ src, alt }: IBannerImageProps) => {
+  return (
+    <img
+      className="c-post__banner"
+      src={src}
+      alt={alt}
+      width="780px"
+      height="auto"
+      loading="eager"
+    />
+  );
+};
 
 export default PostLayout;

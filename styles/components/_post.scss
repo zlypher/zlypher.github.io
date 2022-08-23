@@ -1,139 +1,169 @@
 @import "../_variables";
 
 .c-post-overview {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .c-post-list {
-    width: 100%;
-    max-width: 400px;
+  width: 100%;
+  max-width: 400px;
 }
 
 .c-post {
+  max-width: 780px;
+  margin: 0 auto;
+
+  &__banner {
+    max-width: 100%;
+    margin: 0 auto 24px;
+  }
+
+  &--front {
+    margin-bottom: 16px;
+  }
+
+  &__title {
+    margin: 0;
+    font-size: 28px;
+    font-weight: normal;
+  }
+
+  &--front &__title {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  &__header {
+    margin-bottom: 24px;
+  }
+
+  &__date {
+    font-size: 16px;
+    color: $color-grey-muted;
+  }
+
+  &--front &__date {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  &__categories {
+    margin: 0;
+    padding: 0;
+    margin-left: 8px;
+    padding-left: 8px;
+    border-left: 1px solid $color-black;
+    list-style: none;
+    display: inline-flex;
+    color: $color-grey-muted;
+  }
+
+  &__category {
+    &:after {
+      content: ", ";
+    }
+
+    &:last-child:after {
+      content: none;
+    }
+  }
+
+  &__category + &__category {
+    margin-left: 8px;
+  }
+
+  &__content > {
     max-width: 800px;
-    margin: 0 auto;
+    margin-bottom: 32px;
+    font-size: 18px;
+    line-height: 1.7;
 
-    &--front {
-        margin-bottom: 16px;
+    figure {
+      margin-left: 0;
+      padding-left: 40px;
     }
 
-    &__title {
-        margin: 0;
-        font-size: 28px;
-        font-weight: normal;
+    h2 {
+      font-size: 20px;
+      margin-bottom: 8px;
     }
 
-    &--front &__title {
-        font-size: 18px;
-        line-height: 24px;
+    h3 {
+      font-size: 16px;
     }
 
-    &__header {
-        margin-bottom: 24px;
+    a {
+      text-decoration: none;
     }
 
-    &__date {
-        font-size: 16px;
-        color: $color-grey-muted;
+    p > img,
+    img {
+      max-width: 100%;
     }
 
-    &--front &__date {
-        font-size: 14px;
-        line-height: 20px;
+    pre {
+      font-size: 1rem;
+      line-height: 1.4;
     }
 
-    &__categories {
-        margin: 0;
-        padding: 0;
-        margin-left: 8px;
-        padding-left: 8px;
-        border-left: 1px solid $color-black;
-        list-style: none;
-        display: inline-flex;
-        color: $color-grey-muted;
+    p > code,
+    code {
+      padding: 0.15rem 0.25rem;
+      background: #ddd;
+      font-family: monospace;
     }
+  }
 
-    &__category {
-        &:after {
-            content: ", ";
-        }
+  &__share {
+    display: flex;
+    margin-bottom: 8px;
+  }
 
-        &:last-child:after {
-            content: none;
-        }
+  &__share-link {
+    display: block;
+    width: 32px;
+    height: 32px;
+    margin-right: 8px;
+    padding: 4px;
+    background: #cacaca;
+    border-radius: 4px;
+    fill: #3c3c3c;
+
+    &:last-of-type {
+      margin-right: 0;
     }
+  }
 
-    &__category + &__category {
-        margin-left: 8px;
-    }
+  &__share-icon {
+    width: 24px;
+    height: 24px;
+  }
 
-    &__content {
-        max-width: 800px;
-        margin-bottom: 32px;
-        font-size: 18px;
-        line-height: 1.7;
-
-        figure {
-            margin-left: 0;
-            padding-left: 40px;
-        }
-
-        h2 {
-            font-size: 20px;
-            margin-bottom: 8px;
-        }
-
-        h3 {
-            font-size: 16px;
-        }
-
-        a {
-            text-decoration: none;
-        }
-
-        img {
-            max-width: 100%;
-        }
-    }
-
-    &__share {
-        display: flex;
-        margin-bottom: 8px;
-    }
-
-    &__share-link {
-        display: block;
-        width: 32px;
-        height: 32px;
-        margin-right: 8px;
-        padding: 4px;
-        background: #cacaca;
-        border-radius: 4px;
-        fill: #3c3c3c;
-
-        &:last-of-type {
-            margin-right: 0;
-        }
-    }
-
-    &__share-icon {
-        width: 24px;
-        height: 24px;
-    }
-
-    &__info {
-        border-top: 1px solid $color-2;
-        padding-top: 8px;
-        font-style: italic;
-        font-size: 16px;
-        line-height: 22px;
-        color: $color-grey-muted;
-    }
+  &__info {
+    border-top: 1px solid $color-2;
+    padding-top: 8px;
+    font-style: italic;
+    font-size: 16px;
+    line-height: 22px;
+    color: $color-grey-muted;
+  }
 }
 
 @media only screen and (max-width: $bp-mobile) {
-    .c-post-overview {
-        flex-direction: column;
+  .c-post-overview {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (min-width: $bp-mobile) {
+  .c-post {
+    &__header {
+      padding: 0 40px;
     }
+
+    &__content {
+      padding: 0 40px;
+    }
+  }
 }
